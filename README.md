@@ -1,4 +1,5 @@
 # SFCategory
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/jack110530/SFCategory.svg?style=flat)](https://travis-ci.org/jack110530/SFCategory)
 [![Version](https://img.shields.io/cocoapods/v/SFCategory.svg?style=flat)](https://cocoapods.org/pods/SFCategory)
@@ -27,3 +28,6 @@ jack110530, jack110530@163.com
 ## License
 
 SFCategory is available under the MIT license. See the LICENSE file for more info.
+=======
+SFCategory
+>>>>>>> 41a4adc1a8a536c12430acb3eb36c41b55d0d939
