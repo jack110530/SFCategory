@@ -15,7 +15,6 @@
 #import "NSString+regule.h"
 #import "UIImage+color.h"
 #import "UIImage+gif.h"
-#import "UIImageView+image.h"
 #import "UIView+clip.h"
 #import "UIView+frame.h"
 #import "UIView+gesture.h"

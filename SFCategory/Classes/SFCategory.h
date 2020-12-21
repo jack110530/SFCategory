@@ -34,9 +34,6 @@
 #import "UIImage+color.h"
 #import "UIImage+gif.h"
 
-// MARK: UIImageView
-#import "UIImageView+image.h"
-
 // MARK: UIViewController
 #import "UIViewController+navigator.h"
 
