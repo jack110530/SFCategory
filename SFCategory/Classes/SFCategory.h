@@ -21,7 +21,7 @@
 
 #pragma mark - UIKit
 // MARK: UIView
-#import "UIImage+sfClip.h"
+#import "UIView+sfClip.h"
 #import "UIView+sfFrame.h"
 #import "UIView+sfGesture.h"
 #import "UIView+sfGradient.h"
