@@ -10,7 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (sfFrame)
-
+// 这里只写了x,y 其他的YY里面有
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,5 +8,7 @@
 #import "NSObject+sfInfo.h"
 
 @implementation NSObject (sfInfo)
-
++ (NSString *)sf_className {
+    return NSStringFromClass(self);
+}
 @end
