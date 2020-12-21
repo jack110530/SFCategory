@@ -11,16 +11,15 @@
 #endif
 
 #import "SFCategory.h"
-#import "NSObject+info.h"
-#import "NSString+regule.h"
-#import "UIImage+color.h"
-#import "UIImage+gif.h"
-#import "UIView+clip.h"
-#import "UIView+frame.h"
-#import "UIView+gesture.h"
-#import "UIView+gradient.h"
-#import "UIView+transition.h"
-#import "UIViewController+navigator.h"
+#import "NSObject+sfInfo.h"
+#import "NSString+sfRegex.h"
+#import "UIImage+sfImage.h"
+#import "UIView+sfClip.h"
+#import "UIView+sfFrame.h"
+#import "UIView+sfGesture.h"
+#import "UIView+sfGradient.h"
+#import "UIView+sfTransition.h"
+#import "UIViewController+sfNavigator.h"
 
 FOUNDATION_EXPORT double SFCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char SFCategoryVersionString[];
