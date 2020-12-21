@@ -21,7 +21,7 @@ typedef NS_ENUM(NSUInteger, SFTranslationType) {
 - (void)back;
 - (void)push:(UIViewController *)vc;
 - (void)present:(UIViewController *)vc;
-- (void)configBackIconWithPop:(NSString *)popIcon dismiss:(NSString *)dismissIcon;
+- (void)configBackIconWithPop:(UIImage *)popIcon dismiss:(UIImage *)dismissIcon;
 
 #pragma mark - 导航栏item配置
 - (UIBarButtonItem *)setLeftItemWithTitle:(NSString *)title;
