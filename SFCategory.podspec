@@ -30,13 +30,53 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SFCategory/Classes/**/*'
+  s.source_files = 'SFCategory/Classes/SFCategory.h'
+  s.public_header_files = 'SFCategory/Classes/SFCategory.h'
+  
+  # SFFoundation
+  s.subspec 'SFFoundation' do |ss|
+
+    # NSObject
+    ss.subspec 'NSObject' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFFoundation/NSObject/*.{h,m}'
+    end
+
+    # NSString
+    ss.subspec 'NSString' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFFoundation/NSString/*.{h,m}'
+    end
+
+  end
+
+  # SFKit
+  s.subspec 'SFKit' do |ss|
+
+    # UIView
+    ss.subspec 'UIView' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UIView/*.{h,m}'
+    end
+
+    # UIImageView
+    ss.subspec 'UIImageView' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UIImageView/*.{h,m}'
+    end
+
+    # UIImage
+    ss.subspec 'UIImage' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UIImage/*.{h,m}'
+    end
+
+    # UIViewController
+    ss.subspec 'UIViewController' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UIViewController/*.{h,m}'
+    end
+
+  end
   
   # s.resource_bundles = {
   #   'SFCategory' => ['SFCategory/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

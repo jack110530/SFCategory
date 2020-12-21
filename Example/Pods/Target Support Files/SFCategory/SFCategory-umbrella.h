@@ -10,11 +10,9 @@
 #endif
 #endif
 
+#import "SFCategory.h"
 #import "NSObject+info.h"
 #import "NSString+regule.h"
-#import "UIColor+range.h"
-#import "SFCategory.h"
-#import "UIColor+gradient.h"
 #import "UIImage+color.h"
 #import "UIImage+gif.h"
 #import "UIImageView+image.h"
