@@ -14,8 +14,6 @@ typedef NS_ENUM(NSUInteger, SFTranslationType) {
     SFTranslationTypePush,
     SFTranslationTypePresent,
 };
-#define SFPopBackIcon @"com_back_white"
-#define SFDismissBackIcon @"com_back_white"
 
 @interface UIViewController (navigator)
 
@@ -23,7 +21,7 @@ typedef NS_ENUM(NSUInteger, SFTranslationType) {
 - (void)back;
 - (void)push:(UIViewController *)vc;
 - (void)present:(UIViewController *)vc;
-- (void)configBackIcon;
+- (void)configBackIconWithPop:(NSString *)popIcon dismiss:(NSString *)dismissIcon;
 
 #pragma mark - 导航栏item配置
 - (UIBarButtonItem *)setLeftItemWithTitle:(NSString *)title;

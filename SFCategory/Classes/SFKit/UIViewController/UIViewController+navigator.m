@@ -31,7 +31,7 @@
     }
     return type;
 }
-- (void)configBackIcon {
+- (void)configBackIconWithPop:(NSString *)popIcon dismiss:(NSString *)dismissIcon; {
     SFTranslationType type = [self getCurrentTranslationType];
     switch (type) {
         case SFTranslationTypeRoot:
@@ -41,12 +41,12 @@
             break;
         case SFTranslationTypePush:
         {
-            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:SFPopBackIcon] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:popIcon] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         }
             break;
         case SFTranslationTypePresent:
         {
-            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:SFDismissBackIcon] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:dismissIcon] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         }
             break;
             
