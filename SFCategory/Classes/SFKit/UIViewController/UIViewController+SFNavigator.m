@@ -1,13 +1,20 @@
 //
-//  UIViewController+sfNavigator.m
+//  UIViewController+SFNavigator.m
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
-#import "UIViewController+sfNavigator.h"
+#import "UIViewController+SFNavigator.h"
 
-@implementation UIViewController (sfNavigator)
+typedef NS_ENUM(NSUInteger, SFTranslationType) {
+    SFTranslationTypeRoot = 0,
+    SFTranslationTypePush,
+    SFTranslationTypePresent,
+};
+
+@implementation UIViewController (SFNavigator)
+
 #pragma mark - 导航栏转场操作
 // 判断当前控制器所处状态
 - (SFTranslationType)getCurrentTranslationType {
@@ -152,4 +159,5 @@
 - (void)sf_clickRightItemEvent:(UIBarButtonItem *)item {
     
 }
+
 @end

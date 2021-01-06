@@ -1,13 +1,14 @@
 //
-//  UIView+sfFrame.m
+//  UIView+SFFrame.m
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
-#import "UIView+sfFrame.h"
+#import "UIView+SFFrame.h"
 
-@implementation UIView (sfFrame)
+@implementation UIView (SFFrame)
+
 - (CGFloat)x {
     return self.frame.origin.x;
 }

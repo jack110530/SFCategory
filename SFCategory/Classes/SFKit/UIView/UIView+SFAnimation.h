@@ -1,15 +1,16 @@
 //
-//  UIView+sfTransition.h
+//  UIView+SFAnimation.h
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (sfTransition)
+@interface UIView (SFAnimation)
+
 /// 动态添加
 /// @param subview 子视图
 /// @param transition 动画类型

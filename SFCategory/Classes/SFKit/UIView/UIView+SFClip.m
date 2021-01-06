@@ -1,13 +1,14 @@
 //
-//  UIView+sfClip.m
+//  UIView+SFClip.m
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
-#import "UIView+sfClip.h"
+#import "UIView+SFClip.h"
 
-@implementation UIView (sfClip)
+@implementation UIView (SFClip)
+
 /// 设置圆角
 /// @param radius 圆角半径
 - (void)sf_setRoundedCornerWithRadius:(CGFloat)radius {
@@ -64,4 +65,5 @@
     self.layer.shadowOpacity = opacity;
     self.layer.shadowRadius = radius;
 }
+
 @end

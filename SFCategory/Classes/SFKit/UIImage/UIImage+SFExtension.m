@@ -1,13 +1,13 @@
 //
-//  UIImage+sfImage.m
+//  UIImage+SFExtension.m
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
-#import "UIImage+sfImage.h"
+#import "UIImage+SFExtension.h"
 
-@implementation UIImage (sfImage)
+@implementation UIImage (SFExtension)
 
 #pragma mark - color
 /// 由颜色生成图片
@@ -150,6 +150,5 @@
     
     return [UIImage animatedImageWithImages:scaledImages duration:self.duration];
 }
-
 
 @end

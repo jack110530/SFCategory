@@ -1,15 +1,15 @@
 //
-//  UIImage+sfImage.h
+//  UIImage+SFExtension.h
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (sfImage)
+@interface UIImage (SFExtension)
 
 #pragma mark - color
 /// 由颜色生成图片

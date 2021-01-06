@@ -1,15 +1,16 @@
 //
-//  UIView+sfClip.h
+//  UIView+SFClip.h
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (sfClip)
+@interface UIView (SFClip)
+
 /// 设置圆角
 /// @param radius 圆角半径
 - (void)sf_setRoundedCornerWithRadius:(CGFloat)radius;
@@ -43,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
                       offset: (CGSize)offset
                      opacity: (CGFloat)opacity
                       radius: (CGFloat)radius;
+
 @end
 
 NS_ASSUME_NONNULL_END

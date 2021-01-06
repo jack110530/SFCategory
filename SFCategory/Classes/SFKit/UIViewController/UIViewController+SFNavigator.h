@@ -1,21 +1,16 @@
 //
-//  UIViewController+sfNavigator.h
+//  UIViewController+SFNavigator.h
 //  SFCategory
 //
-//  Created by 黄山锋 on 2020/12/21.
+//  Created by 黄山锋 on 2021/1/6.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, SFTranslationType) {
-    SFTranslationTypeRoot = 0,
-    SFTranslationTypePush,
-    SFTranslationTypePresent,
-};
+@interface UIViewController (SFNavigator)
 
-@interface UIViewController (sfNavigator)
 #pragma mark - 导航栏转场操作
 - (void)sf_back;
 - (void)sf_push:(UIViewController *)vc;
@@ -35,6 +30,7 @@ typedef NS_ENUM(NSUInteger, SFTranslationType) {
 - (void)sf_clickLeftItemEvent:(UIBarButtonItem *)item;
 /// 点击导航栏右侧item
 - (void)sf_clickRightItemEvent:(UIBarButtonItem *)item;
+
 @end
 
 NS_ASSUME_NONNULL_END
