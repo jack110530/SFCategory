@@ -36,10 +36,6 @@
         {
           "name": "NSObject",
           "source_files": "SFCategory/Classes/SFFoundation/NSObject/*.{h,m}"
-        },
-        {
-          "name": "NSString",
-          "source_files": "SFCategory/Classes/SFFoundation/NSString/*.{h,m}"
         }
       ]
     },
