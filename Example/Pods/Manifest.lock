@@ -7,20 +7,32 @@ PODS:
   - SFCategory (0.1.1):
     - SFCategory/SFFoundation (= 0.1.1)
     - SFCategory/SFKit (= 0.1.1)
+    - YYCategories
   - SFCategory/SFFoundation (0.1.1):
     - SFCategory/SFFoundation/NSObject (= 0.1.1)
     - SFCategory/SFFoundation/NSString (= 0.1.1)
-  - SFCategory/SFFoundation/NSObject (0.1.1)
-  - SFCategory/SFFoundation/NSString (0.1.1)
+    - YYCategories
+  - SFCategory/SFFoundation/NSObject (0.1.1):
+    - YYCategories
+  - SFCategory/SFFoundation/NSString (0.1.1):
+    - YYCategories
   - SFCategory/SFKit (0.1.1):
+    - SFCategory/SFKit/UIButton (= 0.1.1)
     - SFCategory/SFKit/UIImage (= 0.1.1)
-    - SFCategory/SFKit/UIImageView (= 0.1.1)
     - SFCategory/SFKit/UIView (= 0.1.1)
     - SFCategory/SFKit/UIViewController (= 0.1.1)
-  - SFCategory/SFKit/UIImage (0.1.1)
-  - SFCategory/SFKit/UIImageView (0.1.1)
-  - SFCategory/SFKit/UIView (0.1.1)
-  - SFCategory/SFKit/UIViewController (0.1.1)
+    - YYCategories
+  - SFCategory/SFKit/UIButton (0.1.1):
+    - YYCategories
+  - SFCategory/SFKit/UIImage (0.1.1):
+    - YYCategories
+  - SFCategory/SFKit/UIView (0.1.1):
+    - YYCategories
+  - SFCategory/SFKit/UIViewController (0.1.1):
+    - YYCategories
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -29,6 +41,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - YYCategories
 
 EXTERNAL SOURCES:
   SFCategory:
@@ -36,7 +49,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SFCategory: 8f0abf42379314d513ef9d550115859454fb42bc
+  SFCategory: 4adc606da20bcce6620f10a89cda3dc2b105274c
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: fcfde905b6fcb970850a01a4c7cb0f50f69f5ffc
 

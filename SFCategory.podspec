@@ -56,10 +56,10 @@ TODO: Add long description of the pod here.
       sss.source_files = 'SFCategory/Classes/SFKit/UIView/*.{h,m}'
     end
 
-    # # UIImageView
-    # ss.subspec 'UIImageView' do |sss|
-    #   sss.source_files = 'SFCategory/Classes/SFKit/UIImageView/*.{h,m}'
-    # end
+     # UIButton
+     ss.subspec 'UIButton' do |sss|
+       sss.source_files = 'SFCategory/Classes/SFKit/UIButton/*.{h,m}'
+     end
 
     # UIImage
     ss.subspec 'UIImage' do |sss|
