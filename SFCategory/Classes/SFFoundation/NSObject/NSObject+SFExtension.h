@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (SFExtension)
 + (NSString *)sf_className;
+- (NSString *)sf_className;
 @end
 
 NS_ASSUME_NONNULL_END
