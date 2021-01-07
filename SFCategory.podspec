@@ -41,10 +41,10 @@ TODO: Add long description of the pod here.
       sss.source_files = 'SFCategory/Classes/SFFoundation/NSObject/*.{h,m}'
     end
 
-#    # NSString
-#    ss.subspec 'NSString' do |sss|
-#      sss.source_files = 'SFCategory/Classes/SFFoundation/NSString/*.{h,m}'
-#    end
+    # NSString
+    ss.subspec 'NSString' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFFoundation/NSString/*.{h,m}'
+    end
 
   end
 
