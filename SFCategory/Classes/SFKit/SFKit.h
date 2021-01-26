@@ -14,15 +14,18 @@
 #import "SFTableViewReusedProtocol.h"
 #import "SFCollectionViewReusedProtocol.h"
 
+#pragma mark - UITableView
+#import "UITableView+SFReuse.h"
+
+#pragma mark - UICollectionView
+#import "UICollectionView+SFReuse.h"
+
 #pragma mark - UIButton
 #import "UIButton+SFExtension.h"
 #import "UIButton+SFEnlargeScope.h"
 
 #pragma mark - UIImage
 #import "UIImage+SFExtension.h"
-
-#pragma mark - UITableView
-#import "UITableView+SFReuse.h"
 
 #pragma mark - UIView
 #import "UIView+SFAnimation.h"
