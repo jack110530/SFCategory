@@ -36,6 +36,9 @@ TODO: Add long description of the pod here.
   # SFFoundation
   s.subspec 'SFFoundation' do |ss|
 
+    ss.source_files = 'SFCategory/Classes/SFFoundation/SFFoundation.h'
+    ss.public_header_files = 'SFCategory/Classes/SFFoundation/SFFoundation.h'
+
     # NSObject
     ss.subspec 'NSObject' do |sss|
       sss.source_files = 'SFCategory/Classes/SFFoundation/NSObject/*.{h,m}'
@@ -50,6 +53,9 @@ TODO: Add long description of the pod here.
 
   # SFKit
   s.subspec 'SFKit' do |ss|
+
+    ss.source_files = 'SFCategory/Classes/SFKit/SFKit.h'
+    ss.public_header_files = 'SFCategory/Classes/SFKit/SFKit.h'
 
     # UIView
     ss.subspec 'UIView' do |sss|
@@ -70,6 +76,26 @@ TODO: Add long description of the pod here.
     ss.subspec 'UIViewController' do |sss|
       sss.source_files = 'SFCategory/Classes/SFKit/UIViewController/*.{h,m}'
     end
+
+    # SFProtocol
+    ss.subspec 'SFProtocol' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/SFProtocol/*.{h,m}'
+    end
+
+    # UITableView
+    ss.subspec 'UITableView' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UITableView/*.{h,m}'
+      sss.dependency 'SFCategory/SFKit/SFProtocol'
+      sss.dependency 'SFCategory/SFFoundation/NSObject'
+    end
+
+    # UICollectionView
+    ss.subspec 'UICollectionView' do |sss|
+      sss.source_files = 'SFCategory/Classes/SFKit/UICollectionView/*.{h,m}'
+      sss.dependency 'SFCategory/SFKit/SFProtocol'
+      sss.dependency 'SFCategory/SFFoundation/NSObject'
+    end
+    
 
   end
   

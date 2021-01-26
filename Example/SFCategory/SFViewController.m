@@ -7,10 +7,11 @@
 //
 
 #import "SFViewController.h"
+#import <SFCategory/SFKit.h>
+#import "SFTestCell.h"
 
-@interface SFViewController ()
-{}
-@property (nonatomic,strong) UIView *animationView;
+@interface SFViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic,strong) UITableView *tableView;
 @end
 
 @implementation SFViewController
@@ -18,33 +19,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.animationView = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
-    self.animationView.backgroundColor = [UIColor redColor];
-    [self.view addSubview:self.animationView];
-    
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeClose];
-    btn.frame = CGRectMake(100, 300, 50, 50);
-    [btn addTarget:self action:@selector(test:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:(UITableViewStylePlain)];
+    [self.view addSubview:self.tableView];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.tableView sf_registerCell:[SFTestCell class]];
+    self.tableView.rowHeight = 100;
 }
 
-- (void)test:(UIButton *)sender {
-    sender.selected = !sender.selected;
-    
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:1];
-//    [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self.animationView cache:YES];
-//    CGAffineTransform transform = CGAffineTransformIdentity;
-    self.animationView.transform = CGAffineTransformTranslate(self.animationView.transform, 100, 100);
-    [UIView commitAnimations];
-    
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    SFTestCell *cell = [tableView sf_dequeueCell:[SFTestCell class] indexPath:indexPath];
+    cell.textLabel.text = [NSString stringWithFormat:@"indexPath:%@",indexPath];
+    return cell;
 }
 
 @end

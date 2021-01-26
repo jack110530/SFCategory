@@ -17,14 +17,25 @@ PODS:
   - SFCategory/SFFoundation/NSString (0.1.1):
     - YYCategories
   - SFCategory/SFKit (0.1.1):
+    - SFCategory/SFKit/SFProtocol (= 0.1.1)
     - SFCategory/SFKit/UIButton (= 0.1.1)
+    - SFCategory/SFKit/UICollectionView (= 0.1.1)
     - SFCategory/SFKit/UIImage (= 0.1.1)
+    - SFCategory/SFKit/UITableView (= 0.1.1)
     - SFCategory/SFKit/UIView (= 0.1.1)
     - SFCategory/SFKit/UIViewController (= 0.1.1)
     - YYCategories
+  - SFCategory/SFKit/SFProtocol (0.1.1):
+    - YYCategories
   - SFCategory/SFKit/UIButton (0.1.1):
     - YYCategories
+  - SFCategory/SFKit/UICollectionView (0.1.1):
+    - SFCategory/SFKit/SFProtocol
+    - YYCategories
   - SFCategory/SFKit/UIImage (0.1.1):
+    - YYCategories
+  - SFCategory/SFKit/UITableView (0.1.1):
+    - SFCategory/SFKit/SFProtocol
     - YYCategories
   - SFCategory/SFKit/UIView (0.1.1):
     - YYCategories
@@ -49,7 +60,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SFCategory: 4adc606da20bcce6620f10a89cda3dc2b105274c
+  SFCategory: 8e6c548b94acb6c6d88bc57b31a1da9eca64a90a
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: fcfde905b6fcb970850a01a4c7cb0f50f69f5ffc
