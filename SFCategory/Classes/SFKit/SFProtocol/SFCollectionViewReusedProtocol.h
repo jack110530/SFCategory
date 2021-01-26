@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 // MARK: 注册header
 /// 注册header
 /// @param header header类对象
-- (void)sf_registerHeader:(nullable Class<SFReusedProtocol>)header;
+- (void)sf_registerHeader:(nonnull Class<SFReusedProtocol>)header;
 
 /// 注册header
 /// @param headers header类对象（数组）
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 // MARK: 注册footer
 /// 注册footer
 /// @param footer footer类对象
-- (void)sf_registerFooter:(nullable Class<SFReusedProtocol>)footer;
+- (void)sf_registerFooter:(nonnull Class<SFReusedProtocol>)footer;
 
 /// 注册footer
 /// @param footers footer类对象（数组）

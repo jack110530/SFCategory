@@ -62,7 +62,7 @@
 // MARK: 注册footer
 /// 注册footer
 /// @param footer footer类对象
-- (void)sf_registerFooter:(nullable Class<SFReusedProtocol>)footer {
+- (void)sf_registerFooter:(nonnull Class<SFReusedProtocol>)footer {
     [self sf_registerFooters:@[footer]];
 }
 

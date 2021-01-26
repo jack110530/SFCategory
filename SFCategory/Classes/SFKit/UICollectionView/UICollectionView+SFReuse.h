@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SFCollectionViewReusedProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UICollectionView (SFReuse)
+@interface UICollectionView (SFReuse)<SFCollectionViewReusedProtocol>
 
 @end
 
