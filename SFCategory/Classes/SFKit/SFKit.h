@@ -22,6 +22,9 @@
 #import "UICollectionReusableView+SFReuse.h"
 #import "UICollectionViewCell+SFReuse.h"
 
+#pragma mark - UIControl
+#import "UIControl+SFClickDuring.h"
+
 #pragma mark - UIButton
 #import "UIButton+SFExtension.h"
 #import "UIButton+SFEnlargeScope.h"
