@@ -8,182 +8,180 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8579E28DF2461FF19D3FE322D79A6D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00A7009206ECC1914D4B5F63AFB9D830 /* UIScrollView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F0C88556A74E93A82C6DED71AE4D5 /* UIScrollView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05EA18691C261D53CCDC1E92B1AB9D6F /* SFCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795DB5D46B29FA270C4C84FD22FDC2D5 /* SFCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D97A7137AC59A46B9CF805927703731 /* UIApplication+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3215D306900088A45B2C24DBEE1D2C /* UIApplication+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10521FEF2CF7776F179EC06880924B81 /* UICollectionViewCell+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F40CACA90AFBA320AF11D6A07A7BA4C /* UICollectionViewCell+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050CF7D8EEA0E711CDB90566F3F2882C /* UITableView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD733DCE54CA4FB53BFD2DEDE0013A /* UITableView+YYAdd.m */; };
+		059FECA8A47D082222A72E14CBCD4535 /* SFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BA79736D0DAA730CBF4635ADDCA365 /* SFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076E26A4E62E566B84AEA7B78EAADF3D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757D88C1B1F392B90E7D803687B51044 /* CoreFoundation.framework */; };
+		090EAA71A2460DD9411B281C8E41E501 /* SFCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795DB5D46B29FA270C4C84FD22FDC2D5 /* SFCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6CF3A9A798B1C0A42FA172646BFB6D /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBE1BC01BECB30E21C60C3E58B1D04 /* UIColor+YYAdd.m */; };
+		0BC33944804D403DD7C17B3526170389 /* UICollectionView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 97514A8CF4DB2155FCEBF931C4F16741 /* UICollectionView+SFReuse.m */; };
+		0C072C229D0DF013ADA2B2EAB7776AC7 /* NSThread+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D88119D42ED3CF8487C236EC92D688C /* NSThread+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F08E4467611F7157F26854832A5AB06 /* UIApplication+StrictKeyWindow.m */; };
+		134CCB3AACBA21683B4D8005B6E8DF41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D53F7CEC3BC82A7D041B4BF91516B062 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B14527806F058354744F83EA6CA6C6 /* QuartzCore.framework */; };
-		18F1F3B844BF209F30FD9F9BF815D8CC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757D88C1B1F392B90E7D803687B51044 /* CoreFoundation.framework */; };
-		19CF2F6EB206DF1411AD0A7482BA4F9A /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C85AE9CEA1F971DC3089D22798139D21 /* UIGestureRecognizer+YYAdd.m */; };
-		1F229F63B00455EA4C928306A9609292 /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2205610129AAAEAA8CCB17B736A53817 /* UIDevice+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22CB649942CDD74DD867A987A58F8A1C /* SFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0261051C9FAFC6B5050065BD1FA7F6 /* SFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23060488DCD4AD275DF6615D6009E379 /* UIColor+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB70360BCEE2B0AECAEB3DF23E48765 /* UIColor+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		233BA3E2C5E206C5D303C514E47BE458 /* UIScrollView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A1B6A7748E31935A5C24EE4C754B71 /* UIScrollView+YYAdd.m */; };
-		269C74CD58E78A996271ED66E7BE11DD /* UIControl+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2872EB631CD4FB60333488E1069039 /* UIControl+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14D34CFFB83C631C9B7FA048239B60C1 /* UITextField+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9F7A823D22DDBDC4C80BBD90598AAB /* UITextField+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15734158F4C6B72536A933AD14C0B2FD /* SFCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B5C7AC563A11CDA36642555FC5B0E3 /* SFCategory-dummy.m */; };
+		15E2E6526EBC986DCD874538AC0D6557 /* UIView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 660D08027B1C74445E95F85F864F6921 /* UIView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A42CC318FB74EA222A6B2769854A37 /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD58E16B14897CF849859DD75B7665 /* NSDictionary+YYAdd.m */; };
+		1EBD7B52E5258C3A0D2E64A9AB32D933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB819E424C8FDF1F02373BF71C8945A1 /* UIKit.framework */; };
+		1FEE368FC7D2746931836F5A4A20E011 /* UIView+SFAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB417EAD89536D3F07B01A906890A465 /* UIView+SFAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2551450BBE08D8190953B20ACBA14A80 /* UIView+SFGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEBD5FEE6309A29B4A350C214BFC916 /* UIView+SFGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2710D544DDCEFD1209DB2A2372B71CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
-		2745E6DE208616D8D5F45C13F5FAC3BA /* NSObject+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25D527668BC49E777E6FED2BF205A1 /* NSObject+SFExtension.m */; };
+		28B9733F5712DF350A9F432310487C95 /* NSObject+YYAddForKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F0189C534376683C3956E0F40402F024 /* NSObject+YYAddForKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290CC812CF39C0030A9E0B06244688F2 /* UIButton+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF65EC840311BF4CE177358C2FB2AE2 /* UIButton+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0DB15E4D93DAF1935E2125385EFD6E /* UITableView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B866C365F77F7E94B0126C250971D2 /* UITableView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7256549455F4411CA58CF40B8325 /* UIImage+Compare.m */; };
 		2E99B49447282E6722076A3D678F9469 /* Pods-SFCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE916B8BD6E596DD6FA91595DD9D96D7 /* Pods-SFCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F3219B1974C225E638D354DC8631B88 /* NSKeyedUnarchiver+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B92364D2AAECD88A21BABC360CA01A /* NSKeyedUnarchiver+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		305D0A75CCE1C7B90A4C7EAE6BB6B582 /* UICollectionView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 310D4E49143B389287569E6CF6059E6E /* UICollectionView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32445B0E6480E5A626DB42C4C70718C4 /* NSNotificationCenter+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52C1CFC42CAB178B19A9DAC2FE9E33 /* NSNotificationCenter+YYAdd.m */; };
-		336F25478CC0E0149FB8B6401BBBDD2C /* UICollectionReusableView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 565C9D48F9364D629A174501E6F3A54A /* UICollectionReusableView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33795A72ADF85442F679166A58DBD329 /* UIView+SFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 163EA8CD1AFEC6D00C91B6C36A3E2825 /* UIView+SFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3695C0E3C61C2EC8C8682BEAEDA162F3 /* UIScreen+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B951780D2979EB676EC64C57FC943617 /* UIScreen+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37E8FB46FFB8E8312A3479951CB652F2 /* NSObject+YYAddForKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F0189C534376683C3956E0F40402F024 /* NSObject+YYAddForKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A4D74505EDEB8797A04135C156C329D /* UIButton+SFEnlargeScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC5E7F5ABECF93D1F75EE05C185D719 /* UIButton+SFEnlargeScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D3EB0EF3BC8920A3CA13DD6ADDCDE7B /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B62B4674DF2AB4163AB6D9ED85C1EB7F /* NSNumber+YYAdd.m */; };
-		3F959B14E1632D83BC438266C6B3C8D6 /* UIView+SFGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE44130ECC5246519EA51BD00F0907 /* UIView+SFGradient.m */; };
-		3FC6E40CACC6596832C30737B7F7CE9B /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6C6011C6E5591870521BAFCFF651D3 /* UIFont+YYAdd.m */; };
+		2ECBBC253D2CC5AA97FD05DAF46BC6B6 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A6C5C11DAEB45F3C042A8CC9EB85B /* UIView+YYAdd.m */; };
+		3B82A79C7F811B8728F5BE64B83E8A45 /* YYCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E15A54D6017C98E0C45C3D5351F8B8 /* YYCGUtilities.m */; };
+		3F62C8ED785B0F3B32377C0E5E7D485C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BF089740DBFA6B60203E260E9427A8 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		417DE491E9E6A5CDFB37F05BE1CA173A /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D61EA3A805E984D67571CAC541E20CA7 /* NSObject+YYAdd.m */; };
-		45FCB683A372759C0A4F84502F51E967 /* UIBezierPath+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 165BADCC0DB9C8D91619927ACD2CA60D /* UIBezierPath+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F87B121BF73BF2E209111CEE51E38E /* UIImage+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB7FCB2CC6F029FABBDB4F03AE31B66 /* UIImage+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECA591532B8EF12CB1A47036198A086 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A6C5C11DAEB45F3C042A8CC9EB85B /* UIView+YYAdd.m */; };
-		4EFAC8A90BA20355036E2B414DCBC6C7 /* UIApplication+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E37EDCACE3A40B9AADB8894096B89 /* UIApplication+YYAdd.m */; };
-		505886C5CEC5235697A48FED7C1CD67A /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 632806306E07A1E75B2D995E68009EEC /* NSData+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58BB2C1AF744969E37FE1E1C1497AE15 /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4696EE4DC8B29B62552CFFE383222C22 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5A6851CE30245F57EFCC3C2279E2EC20 /* UITableView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCFC513F86A6E41E1A27BBC28B5BC2 /* UITableView+SFReuse.m */; };
-		5C1571610240B00D8F8C448F807FD119 /* NSThread+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D88119D42ED3CF8487C236EC92D688C /* NSThread+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FAFBBE1FE1028721EC2F94DF2DA37B6 /* NSString+SFRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = A09701EEE4406CD72E7E972C5E6B00BD /* NSString+SFRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		612442A3720EE4AC4538D9EBA162763B /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A19D2730463C2BBBCA1E00B31DF0A5 /* NSObject+YYAddForKVO.m */; };
-		615BCE3417A3758051803CDF0B9A2E8E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A74FC8F64C0E7A09251ABEF49F3F5 /* CoreText.framework */; };
-		63227636EA75D6D3F3CCC84A420EB563 /* UITableViewHeaderFooterView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3FB7DE9212D62507ED9F7553FC0477 /* UITableViewHeaderFooterView+SFReuse.m */; };
-		64EC2480B54BFAFA9C1BA5D198C2593D /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DC766071CE7AAB39BD65B629911179 /* NSBundle+YYAdd.m */; };
-		668DCBCAE2B0865AB4DA1C2BB6F8A901 /* UIViewController+SFNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F0B550C3A98BD49EED06CD3DC83103 /* UIViewController+SFNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41068F4F1791E2D0C0C5AA3924C4AAA1 /* UIView+SFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 848241A5769FDE1F17EC4A5851C5622D /* UIView+SFAnimation.m */; };
+		418947BC57431A3772968FEBA918EA9A /* NSString+SFRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = A09701EEE4406CD72E7E972C5E6B00BD /* NSString+SFRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420DD2B0BB74456DCC2A3B188D201D53 /* UICollectionReusableView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF7B9318800D7714DA327DA716D8B33 /* UICollectionReusableView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442F817942273F6376C47FAB54F74E69 /* UIColor+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB70360BCEE2B0AECAEB3DF23E48765 /* UIColor+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4822618EA4EDA0E7A5533E83DC86E4CC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF2D92BE4ADB8E527576966670E9889 /* Accelerate.framework */; };
+		4A2D6BC6126E8F4E8D7E2CC473F7F3A5 /* YYCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = B006BCBB5BB1294EC0A1A5B2B305C12A /* YYCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB7C4063BDE12920E24CB430E2C0B08 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D61EA3A805E984D67571CAC541E20CA7 /* NSObject+YYAdd.m */; };
+		4B4AE076C4A6E7AC14C4263840B17251 /* NSDictionary+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 616F1ACF3D5548F7A06E8102171E02D5 /* NSDictionary+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9A78FFCF514EAF8C042278582A10D1 /* UIView+SFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54FCFB7167FD41D4BA560FA8281C6C /* UIView+SFFrame.m */; };
+		4F80C9AE601E99A9EDEF29D7A34C6D3B /* CALayer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B9077AD4E90608F42CB90A4E2A55 /* CALayer+YYAdd.m */; };
+		50FE2C3CF21D45F6367EFB944ADBF072 /* UICollectionViewCell+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = F35812837F7E16D140849A61C6B991A8 /* UICollectionViewCell+SFReuse.m */; };
+		51E959C2BE3C53D11D013BDC0AD0BE6D /* SFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0261051C9FAFC6B5050065BD1FA7F6 /* SFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528AA0B9AAEB619B116A1E11B0F47A84 /* UIScrollView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F0C88556A74E93A82C6DED71AE4D5 /* UIScrollView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		552291156B9401F1FAF7DF8D1AA1DCA3 /* UICollectionReusableView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = C4056516FF51208C33DEAFC9BA6BBAB5 /* UICollectionReusableView+SFReuse.m */; };
+		5C6DF7E9E04483227ECA21531D6E679C /* UIView+SFClip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B43E81FEB7AA6AEBC020E20D48AE2CB /* UIView+SFClip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9E361113E8BB1AE2B1352E5E4FF5B5 /* UIApplication+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3215D306900088A45B2C24DBEE1D2C /* UIApplication+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF69BF94112860A6E9ABA120BE2555A /* UITableView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B34482A5A4CE3A438E2A62CDDD639D8 /* UITableView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DB45293A4E6454B9A07601A176FD76 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A908594F6C2E60753DB2A93214E3A92D /* ImageIO.framework */; };
+		60E6E0FA431BF88EC0BE2B9257FF1C9B /* YYCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907CFEAA8ECD40C861C9D9D867752802 /* YYCategories-dummy.m */; };
+		611A14A2C9A4FD12D237222F26820D7B /* UIView+SFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF745F152766779B515E382740E295 /* UIView+SFGesture.m */; };
+		63E8C6B409CAE64EF646216ED50984D1 /* UIScreen+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D57C94B7CB3DF6483613628242478B91 /* UIScreen+YYAdd.m */; };
+		6848F15D020112D414D11B62B68A446D /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6C6011C6E5591870521BAFCFF651D3 /* UIFont+YYAdd.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B026A49C4599F58777DA27FAEE14558B /* XCTest.framework */; };
-		6CD02D02672C141B78DB99292939E75B /* UITableView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B866C365F77F7E94B0126C250971D2 /* UITableView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DDFDCB7119B1E2DBD5DDF41D3DE1F0 /* FBSnapshotTestCase-dummy.m */; };
-		6EE181AC09823AD6BB245F38A6C592A3 /* UIGestureRecognizer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB9E0FA83A77F1413CC97B72B78F5D /* UIGestureRecognizer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F63F20C14BEFBE1E1593BBEE0F1E978 /* YYCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907CFEAA8ECD40C861C9D9D867752802 /* YYCategories-dummy.m */; };
-		7029E0B65283F17A3B760755B72A2886 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326752550B3277C7BC0175978131A33 /* NSData+YYAdd.m */; };
+		6E0CCD6DCF70E037FD7EE34880470686 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B14527806F058354744F83EA6CA6C6 /* QuartzCore.framework */; };
+		6E56A67717289ABF018E511769F62277 /* UIControl+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2872EB631CD4FB60333488E1069039 /* UIControl+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F21950F93B7A49CF85F4FFB8D782A82 /* SFCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9A4BFFABF74728E491EA4FB54B4704 /* SFCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70EFC3F033DF75F17E613A68E91DA496 /* Pods-SFCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6D3907CA431F99C127EDE7E102AF65 /* Pods-SFCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71EECC2130F5FC1EA585F54BD8224F4F /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8CF291027054BAA7DEC2430772856 /* NSThread+YYAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		73615A57D95A0056FD2B120AA980C7D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB819E424C8FDF1F02373BF71C8945A1 /* UIKit.framework */; };
-		7C3AC6B423E0627B8FA2F93EC42165C0 /* UIImage+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A88CF90AB4FF14F5B45D0E3CDFB516AF /* UIImage+YYAdd.m */; };
-		7F911B48561F77928383383D184E431D /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD58E16B14897CF849859DD75B7665 /* NSDictionary+YYAdd.m */; };
-		857788344F0BCBF55ECEB877CC66643B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C620830EEC10D5CDC1652B5A002CFD07 /* CoreGraphics.framework */; };
-		85BD200A0048C9BB0C165F5E5B54A2F9 /* UIImage+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C032CDB4346DA0F3B9FDC47B71B70730 /* UIImage+SFExtension.m */; };
+		7218BC554E63A5E66D785033398C1FC9 /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F15642949459B97021FC93D08C7CD2C4 /* NSArray+YYAdd.m */; };
+		72302CC9154B1A8D1DBA909872C614A1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A74FC8F64C0E7A09251ABEF49F3F5 /* CoreText.framework */; };
+		73E3624CABE393B696F2C9B6B2772465 /* UIFont+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5F88F6C7262FD79E538AB0B338EFCC /* UIFont+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74098E7C6A0FFE776C32FAA70223F1FC /* NSNotificationCenter+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52C1CFC42CAB178B19A9DAC2FE9E33 /* NSNotificationCenter+YYAdd.m */; };
+		74B61996DFEFC0BAF1FE1E055CC95A3A /* UIView+SFGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03FD2108377A1DACBF2B646D68125A /* UIView+SFGradient.m */; };
+		75F24BB291CD4F10383373065F719BD3 /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 632806306E07A1E75B2D995E68009EEC /* NSData+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764C50DCBFB05EBC8C48433BCB96CCD5 /* UICollectionView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEC7272B538C4022D7E93234E890E3E /* UICollectionView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D58BC17550E4A1B6813064C62F423F /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4696EE4DC8B29B62552CFFE383222C22 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7881B0D62A92820288464E8416F8580F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541339A99D192CA67BF73A534822268 /* CoreImage.framework */; };
+		798BB628077C336D064553751E41BA29 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 236A2EF93E29AD0C0AA26A153E395901 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1A3FEE54A49BF7288E3BB1B3415CE1 /* UIBezierPath+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 824109CBBD1E3BFE5926A0B37AFB07F7 /* UIBezierPath+YYAdd.m */; };
+		7C3A752AFE6EC5CDAB6C51D0EC49C6E0 /* UITableViewCell+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 96568B3F27B8433003C8183297E40EC3 /* UITableViewCell+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83034844FE3DB7322E65D1EF80A2864E /* UIBarButtonItem+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CC92CFD7DD836D4983B776F6F2FCCF /* UIBarButtonItem+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86E7B794C88344B26160521BE254E2FD /* Pods-SFCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF6EE4F722365EB15A1CF4904AB3D48 /* Pods-SFCategory_Example-dummy.m */; };
-		879C00ADC44ADCF4D62E7B9279B334D8 /* UITextField+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9F7A823D22DDBDC4C80BBD90598AAB /* UITextField+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87EED8E5F362479DAFF1CF23A2D47529 /* UIView+SFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B306E6522175BC605CB28CA8171B145 /* UIView+SFAnimation.m */; };
+		87D8A4A6586AA372D86216F60829772D /* UITableViewCell+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1090EA43BC280BFE9ED836C8A635C8C1 /* UITableViewCell+SFReuse.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FBAAC801FE7E3C4E93F25775602C6E /* FBSnapshotTestController.m */; };
-		8A135D764BE0B9058C3DAF7CB1BD7072 /* NSTimer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 883211371627D29A489166725C219B62 /* NSTimer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A81611F881BC4D89FCD23373388BB09 /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBE1BC01BECB30E21C60C3E58B1D04 /* UIColor+YYAdd.m */; };
-		8C927B543B213610D899BBF95341C1C8 /* UIView+SFClip.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B921067E73F741ECDF669F7873DEC5 /* UIView+SFClip.m */; };
-		8CDABB8ABC8E91DFF5183C7E47F38C11 /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C40CB68F35D70F1621E5212054CD4415 /* NSDate+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C882213729B3FD4AF08C5E90F51D77 /* YYCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843BCA508A95DB886B7302BD1BF56E2C /* YYCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B28D8F54CEE83D266E52BE901DDDB381 /* FBSnapshotTestCase.m */; };
-		8E3012CD920E276419E8DA39D55B989E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
+		8E06D10E6C84762D82DA1218F2615EB7 /* NSTimer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 883211371627D29A489166725C219B62 /* NSTimer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F02519830A4B28A5193C4D34981F8C9 /* UIBarButtonItem+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF6D93F6BDE42CD72E721F980F8AD3C /* UIBarButtonItem+YYAdd.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56105E19156450818E0ABD1135C5B071 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90533D5991B1B86B7DD9D6A63B543318 /* UIView+SFGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BA9D54815196BB0B3CC23E3A747929 /* UIView+SFGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		906D45CC983E6450E4E03E0BB68DA754 /* YYCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = B006BCBB5BB1294EC0A1A5B2B305C12A /* YYCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C2E73C3D6F1C46847ECF895E7D1165 /* UIView+SFClip.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA3A5A2AE75ED1047BD9F8E29700708 /* UIView+SFClip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		939819FFD0CC68C7F407E8B0C8587837 /* YYCGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A91A932B71BF4331EECD176072A02E1 /* YYCGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95FA73CCA6D1B95F313439E50C6B564A /* UIBezierPath+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 824109CBBD1E3BFE5926A0B37AFB07F7 /* UIBezierPath+YYAdd.m */; };
-		95FFADB4C8B732F31053D926C729FC5F /* UIFont+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5F88F6C7262FD79E538AB0B338EFCC /* UIFont+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		966A3B884895631F6E6814444F24F4AE /* UITableViewCell+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A21226ABF29D70D12F180991A71AFB /* UITableViewCell+SFReuse.m */; };
-		96FDE9D8D5DABD4230ED1D23A80AC0D6 /* UIButton+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A64402B7CDBCCAF254D4CD06BEF0FC36 /* UIButton+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9785A7805E7B7ED493AD447C50569D5C /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 184DD837C6D9D4227E76BB6AD5F03669 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9859CCACB7A5F4E39854A9F0B7C1411C /* NSObject+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3302AE9012C51B0A1B9BC6EA95EFC5 /* NSObject+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		994A362B149A6F384D7B32DD3B17E54D /* NSKeyedUnarchiver+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9A7AC21ED8CA4E075C72AB4ECA81F /* NSKeyedUnarchiver+YYAdd.m */; };
+		90D7B94A56C6DE3CC5989DCB57CB5D9A /* UITableViewHeaderFooterView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 664430EFEB8E5498BB7781C270A0FDE4 /* UITableViewHeaderFooterView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9267C52A6D015D4BE3E455C2F7F0C26A /* UIButton+SFEnlargeScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4B1B16FB2FB81EF7CC53544F56DC7 /* UIButton+SFEnlargeScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FADD6C32AA9A944492FABCBE780A14 /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2205610129AAAEAA8CCB17B736A53817 /* UIDevice+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C45A8002DB958516F64158979DAC16 /* NSNotificationCenter+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 566C9E7E083AA022F5C6450001F03CD3 /* NSNotificationCenter+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97CF377C98580180A1BD8652640E18F5 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326752550B3277C7BC0175978131A33 /* NSData+YYAdd.m */; };
+		98DCA3209DBC6BC71EC2E292DDE1145B /* NSString+SFRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D5864DF9B5FB73EC428D3326727AA /* NSString+SFRegex.m */; };
+		9ACF109A20ABED5655498CF9D7A52F65 /* NSObject+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 57020D4B33FFAEEA3872E190F1F9B7F8 /* NSObject+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF79BFF2D2D61322C3868D78321D411 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C485EA6C146152386536C89935215ABD /* NSTimer+YYAdd.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37B11546DE7FFFEC47B49B600B5A69 /* SwiftSupport.swift */; };
 		9E9DF110B64B0BCF269BE1843046E55A /* Pods-SFCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 230F2069E66D7F62667D2721F2A10BC5 /* Pods-SFCategory_Tests-dummy.m */; };
-		9EF7CE80B51DC985D630DE2D57DFBB95 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = 380A9B7442FDBB0830B9962719DADB68 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F9239437903F16D219067E99503DA6E /* CALayer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B9077AD4E90608F42CB90A4E2A55 /* CALayer+YYAdd.m */; };
-		9FAAA978E7583194AC5A07A03BF41330 /* UIView+SFGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA02CD8C834AB5FFDD2D5BC6D35634E /* UIView+SFGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FB4BFE2C1FDF74773D1F7C6586C9BA0 /* UITableView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1542F62A1D07392B2F8D581177205B /* UITableView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A054B4224CA8664CB143AE8EAC01C3DC /* NSBundle+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 39707A3AD802AB3C6D6F07524C85F875 /* NSBundle+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A315A28E6661CD5056A1AAD028A9D678 /* SFCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B5C7AC563A11CDA36642555FC5B0E3 /* SFCategory-dummy.m */; };
-		A36A8E003E041A4DFC9171828516730C /* UITextField+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F5BA605B4B69FC77BF86919468DEE /* UITextField+YYAdd.m */; };
-		A473D5FA738A8B2B7CBA4E891117CBA9 /* UICollectionViewCell+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9F98D5F2B8F188A4544CFD5458B0B /* UICollectionViewCell+SFReuse.m */; };
+		9F3AFF2E320B7654267B5EE353B71E3B /* CALayer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E005C0D610CA500E7D98764D9563DA90 /* CALayer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDCCF6FED75CF5B8E01BBA73A795CB8 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19A5C87E8F8729F69CE511602DA873 /* NSString+YYAdd.m */; };
+		A1E32FD79A00B2A9ECAB8FF3A2CDF190 /* NSKeyedUnarchiver+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9A7AC21ED8CA4E075C72AB4ECA81F /* NSKeyedUnarchiver+YYAdd.m */; };
+		A493DA0BF63552123A1B25FFE7C1B306 /* YYCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59C5DBA2A3F4BE6144CEF88FCB3F423 /* YYCategories.framework */; };
+		A517FC62D73E224913F2D15581AEE3E7 /* UIView+SFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DB614A81763C183A37658423ABA7D812 /* UIView+SFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B16053AF8A642ED74375619B706F01 /* UIImage+Snapshot.m */; };
-		A8EFEF3CEC6C1507D70EBDE021348263 /* UIBarButtonItem+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF6D93F6BDE42CD72E721F980F8AD3C /* UIBarButtonItem+YYAdd.m */; };
-		AA8C69D1E0C15DE48E3DA25D8F9E0770 /* SFCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9A4BFFABF74728E491EA4FB54B4704 /* SFCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD737CF0AD2A32CA313AE5A66DD087D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541339A99D192CA67BF73A534822268 /* CoreImage.framework */; };
-		B07F802EFF8C61C6990AE55D0FC6C887 /* UIBarButtonItem+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CC92CFD7DD836D4983B776F6F2FCCF /* UIBarButtonItem+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0B8EB8182A50157969F2FBF9802AF26 /* YYCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E15A54D6017C98E0C45C3D5351F8B8 /* YYCGUtilities.m */; };
+		A55BE8435736D3C3DED68D671D4B50F7 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C85AE9CEA1F971DC3089D22798139D21 /* UIGestureRecognizer+YYAdd.m */; };
+		A7D806519A0B3BCB89AE9EA9FED3B638 /* NSObject+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3302AE9012C51B0A1B9BC6EA95EFC5 /* NSObject+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A959FCC5828AAAB345DD11671D871C0D /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F50631348814A02B02794DAB6892B52 /* NSDate+YYAdd.m */; };
+		AA63AA7E705BA515A6FFD089C8BF0B06 /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 184DD837C6D9D4227E76BB6AD5F03669 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC273147E8931B75868BE7623FE2439E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB819E424C8FDF1F02373BF71C8945A1 /* UIKit.framework */; };
+		AFD9017C6B93B3C67ABF11D9195C9E02 /* UIButton+SFEnlargeScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B8A4A507243DE830E8D8B55088A2FC /* UIButton+SFEnlargeScope.m */; };
+		B0B967FB0DBBB7DAA2AF2083025E91CC /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A91BB84DEF5AED8CE9593283B9FCB2C9 /* UIControl+YYAdd.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
-		B2C2DAFEF785416B7B81EABD0E6D4CA4 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A91BB84DEF5AED8CE9593283B9FCB2C9 /* UIControl+YYAdd.m */; };
-		B2E444CDD4C8F7C324B56472D17D38D9 /* SFCollectionViewReusedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4F6591F2B0DECEC076A555431F1EF7 /* SFCollectionViewReusedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7193BF78A3E98D683CFBB544E865912 /* UIView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 660D08027B1C74445E95F85F864F6921 /* UIView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D2F94BA7817D12D0EA0FBCE57A25C2 /* UIGestureRecognizer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB9E0FA83A77F1413CC97B72B78F5D /* UIGestureRecognizer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C14178256AED336C27A30617F340B60 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B8857AC62DD39786616FF3641418BF5A /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EF6FBE50D7C0BF2A4FB065B52E5482 /* YYCategoriesMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA5C15D44A278726AC7D299CDAFFCDCF /* UITableView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD733DCE54CA4FB53BFD2DEDE0013A /* UITableView+YYAdd.m */; };
-		BA9BCADAF0EE4B4628B0F59837A4A150 /* UICollectionView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE54FA2BBEAF791C48B3D0FCC38BDDF /* UICollectionView+SFReuse.m */; };
-		BBBE56A06FBC6E59ACF325F208200031 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19A5C87E8F8729F69CE511602DA873 /* NSString+YYAdd.m */; };
-		C20B14C70C112ECA3DEA3FE14285A418 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A908594F6C2E60753DB2A93214E3A92D /* ImageIO.framework */; };
-		C2132AAB2D70B8D79EF56F7C076ABEAF /* UITableViewHeaderFooterView+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 123781E1228097A3C1451CC5747F7C6E /* UITableViewHeaderFooterView+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4115EDEA4362E4EFEB334FC14CE64EA /* NSDictionary+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 616F1ACF3D5548F7A06E8102171E02D5 /* NSDictionary+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D9FB580B777E34FB071EF3CB318F8A /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B62B4674DF2AB4163AB6D9ED85C1EB7F /* NSNumber+YYAdd.m */; };
+		BD0CE6061AB2D04DED89FCABAC33D467 /* UICollectionViewCell+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6171F8366380D0CB018914564AF5A9E7 /* UICollectionViewCell+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5154E0204A215FA250591F693E0F0D /* UITableView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC31320305E69B5C80828B7ACAD272F2 /* UITableView+SFReuse.m */; };
+		BD8C800080CABF766C7915EF8ED93D8E /* NSKeyedUnarchiver+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B92364D2AAECD88A21BABC360CA01A /* NSKeyedUnarchiver+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2939D6F822C4665C5077C0C7D014629 /* UIImage+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA735448B9A0C2CF9081B02699EB71 /* UIImage+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31895C8ED41218BF84AC58C6F79259C /* UIImage+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5BDE8737EB530DD7E7D70A1205D7D /* UIImage+SFExtension.m */; };
+		C45E39B50E8BB7E173544CE91E8B3393 /* UIBezierPath+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 165BADCC0DB9C8D91619927ACD2CA60D /* UIBezierPath+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1941C2C773245CA5BAB039363CCDC513 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6FC50F5F1930D8993B7599F85DBD2E4 /* UIView+SFAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD0D9B9E4C80E7AF97926780D0CE859 /* UIView+SFAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C88ED8694E224189E3C86A00AF4F5DE0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF2D92BE4ADB8E527576966670E9889 /* Accelerate.framework */; };
-		CA1AA240A635FCD9E6CC331805FEB639 /* YYCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843BCA508A95DB886B7302BD1BF56E2C /* YYCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAA0CDF26DFF9A8C78C53D63AC0B59D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B14527806F058354744F83EA6CA6C6 /* QuartzCore.framework */; };
-		CBD705FA6842173E75A842FF41DEE534 /* NSNotificationCenter+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 566C9E7E083AA022F5C6450001F03CD3 /* NSNotificationCenter+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC22E4C558B80124FAD884C934BE0792 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 236A2EF93E29AD0C0AA26A153E395901 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDE236827DBB3C35EDEA6E844AFF54D9 /* UIImage+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F191FDA08B333EACE852662C3B54038D /* UIImage+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF573F3AA1A4C3D7700D59C2EB892D09 /* NSObject+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 57020D4B33FFAEEA3872E190F1F9B7F8 /* NSObject+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA80C3F0468C2237ACE22B61E8A44712 /* UIView+SFClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3365BC955011FF3035D558773009F /* UIView+SFClip.m */; };
+		CB30A10F3AE378222102AFFC3734B058 /* UIApplication+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E37EDCACE3A40B9AADB8894096B89 /* UIApplication+YYAdd.m */; };
+		CC6C1175AD811D5B9ECA6B6F2A9439DB /* UIImage+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A88CF90AB4FF14F5B45D0E3CDFB516AF /* UIImage+YYAdd.m */; };
+		CCA7E62609FDA61A596F94E724F550BA /* NSObject+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25D527668BC49E777E6FED2BF205A1 /* NSObject+SFExtension.m */; };
+		CF270EB5FAE6470EDD46EACD1BB29A71 /* UIImage+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F191FDA08B333EACE852662C3B54038D /* UIImage+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEF351ADEFDC9F7CEAC2FA25C075BF3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D05A15D86BA977CD1623A08EA9F2D754 /* UIScreen+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D57C94B7CB3DF6483613628242478B91 /* UIScreen+YYAdd.m */; };
-		D41F8E0470767E6A487D333E88C67E51 /* UIView+SFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1243B88B972F8CCBEF14806775CBB88B /* UIView+SFFrame.m */; };
-		D5FC819019CD0F6D3DBC45CBA70703FD /* UIViewController+SFNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD38F3946ED42FAEE7AB1912CC93BED /* UIViewController+SFNavigator.m */; };
-		D85626E0106B785737D35BA6A3894FBC /* SFReusedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F668F501B0B3893DBDE42BF38E4C5F3 /* SFReusedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87D99E1E577DBE33AC331D76CDE6567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
-		DA03A94758867C85C01731260FB82A50 /* UICollectionReusableView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA3407249817B8EDBE071E9DC1033C /* UICollectionReusableView+SFReuse.m */; };
-		DE93ED62E1C8D69865901FE3E2D941F2 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C485EA6C146152386536C89935215ABD /* NSTimer+YYAdd.m */; };
+		D2EAD2BC146B9B6E461667CE111307C2 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = 380A9B7442FDBB0830B9962719DADB68 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D52809B271273674888931354361D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C620830EEC10D5CDC1652B5A002CFD07 /* CoreGraphics.framework */; };
+		DCBC06C90DCBF0A47BB8ADD1B352339E /* UIScreen+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B951780D2979EB676EC64C57FC943617 /* UIScreen+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2CEDB14087437000BB029D8D49891D /* UITextField+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F5BA605B4B69FC77BF86919468DEE /* UITextField+YYAdd.m */; };
+		E0064AFC9ADD542ED5712F339F24186D /* UIViewController+SFNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DEE9396600AB8B2848F2549F92D1D4 /* UIViewController+SFNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB819E424C8FDF1F02373BF71C8945A1 /* UIKit.framework */; };
-		E13DD0CAC5B78581D2CAD17FD736312E /* UIButton+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF118D3A8C0AD8930DF4FEEE5069C925 /* UIButton+SFExtension.m */; };
-		E4C488A4337D88A650C941ACB38F129A /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A646F0E7897A38D36048255674BFF37 /* NSNumber+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E666E07ECFB549E0D24DAC4EDFD8E1D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB819E424C8FDF1F02373BF71C8945A1 /* UIKit.framework */; };
+		E0CFDCF0B1068057F7F38F1439853B06 /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8CF291027054BAA7DEC2430772856 /* NSThread+YYAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E4063B5B15BF3226C52122C1CC3B3D1F /* UIView+SFGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBE4A2E0E85AC4312EAB8D095BB7A07 /* UIView+SFGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E877C8284AB9085B89157B245069FC9A /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C40CB68F35D70F1621E5212054CD4415 /* NSDate+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F379AA30C84512CB682BC26426A488C /* FBSnapshotTestCasePlatform.m */; };
-		EAF3432DBC4ABDA79810AA531D497A57 /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F15642949459B97021FC93D08C7CD2C4 /* NSArray+YYAdd.m */; };
-		EC699094C0EBD5785E0AE3DA81701B34 /* SFTableViewReusedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B0016643B571C428ECD6478E7719B0E7 /* SFTableViewReusedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEE7874E2ABBB11741C20933DDD13365 /* CALayer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E005C0D610CA500E7D98764D9563DA90 /* CALayer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF1CBF865D127ABF249A153FD75970C1 /* UIButton+SFEnlargeScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3EFBB06189E03B8272FDAC76EF68B /* UIButton+SFEnlargeScope.m */; };
+		EB8FD8EC2B9DF17F5C04241374FA75E3 /* UITableViewHeaderFooterView+SFReuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 263843EAE1B0FED6767862048BC9D1F6 /* UITableViewHeaderFooterView+SFReuse.m */; };
+		EC82930DD8C0DF8BA3D4210D02A66CA8 /* YYCGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A91A932B71BF4331EECD176072A02E1 /* YYCGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED524D7CC6B8DB7F5BA0FEDC19F91F4B /* UIScrollView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A1B6A7748E31935A5C24EE4C754B71 /* UIScrollView+YYAdd.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DCBC2C201F685E583547D31EB6BBBF /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F34CBE50919061D9415BD760ECE1606C /* NSString+SFRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D5864DF9B5FB73EC428D3326727AA /* NSString+SFRegex.m */; };
+		F26AD50C0EFA265304024BE7F72E8CCA /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A19D2730463C2BBBCA1E00B31DF0A5 /* NSObject+YYAddForKVO.m */; };
+		F4F3C9C87E315C0DF120F0BA72FC8DE2 /* NSBundle+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 39707A3AD802AB3C6D6F07524C85F875 /* NSBundle+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F525A784A3A5CF7C35FA975BC36168DC /* UIViewController+SFNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3029266CDA7299DEBAFA0E52A0FADBD6 /* UIViewController+SFNavigator.m */; };
+		F613DEF36C434FC36F5E363FD2745EDD /* UIButton+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1751A94B8DC31E968DA257FB4BB435 /* UIButton+SFExtension.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEE560463B984F1294D7247B928D46D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F86D7F80E67B58BCFC36E570487CC2E3 /* UIView+SFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BF29E830D817E408BBE5B70809C39 /* UIView+SFGesture.m */; };
-		F9402A83FFDDFC0829C8B27DC01D0B9A /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D0788038898082BF22144EF0D03EBF1C /* UIDevice+YYAdd.m */; };
-		FC8168E770B2A0ACE14CD0B68BB803F7 /* SFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C938ECADF4407359FC95E9BB2723C78E /* SFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCEE7402F2C4077407408C896F8B6D79 /* YYCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59C5DBA2A3F4BE6144CEF88FCB3F423 /* YYCategories.framework */; };
+		F8C5EE85EB43A23A51380CFCADB89CD2 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D0788038898082BF22144EF0D03EBF1C /* UIDevice+YYAdd.m */; };
+		F8DB4B62A9C7717FA2E6504BC929924E /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A646F0E7897A38D36048255674BFF37 /* NSNumber+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94411086EF4A880AC2CB9C7A4E08D8D /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EF6FBE50D7C0BF2A4FB065B52E5482 /* YYCategoriesMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA89CAB9AC85BBCF1A25A910EE7D4717 /* SFReusedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AF4D688E2BF9CCC8173BC47C2AA2A2 /* SFReusedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5D04A4041605E73A3CD1264F7F6061 /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DC766071CE7AAB39BD65B629911179 /* NSBundle+YYAdd.m */; };
 		FE33A26C8A9749058ECDCA8A8F6E54E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */; };
-		FF9802A412A7F1FF54F58A0A344655F8 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F50631348814A02B02794DAB6892B52 /* NSDate+YYAdd.m */; };
-		FFD8778F517B7978E47AAA05F200C079 /* UITableViewCell+SFReuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1742EBAE344EB5202BDC0E3EE64E1E74 /* UITableViewCell+SFReuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11517031138EF448B8FAE5C39398CB35 /* PBXContainerItemProxy */ = {
+		6147AB70FB51804F5B5AF9CEB7D6B63F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EA83019985F20F611640A1A2589BF53;
 			remoteInfo = "Pods-SFCategory_Example";
 		};
-		409145F129313253CFBF38BE599DD099 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CF4590C80DA0BCFB23334523B614709;
-			remoteInfo = YYCategories;
-		};
-		4A63F77EBBCA4E11D418A2BE2B39482C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		C99DD8D4B03ABF06DFFB815CB9CEF3E2 /* PBXContainerItemProxy */ = {
+		88ABD72AA71BB8A84070ED6AB06E7078 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DE4AEF5EFF32A1182DA632BA9EA70F15;
 			remoteInfo = SFCategory;
 		};
-		E70E54542D4A0A94BAA656C9F8B7615B /* PBXContainerItemProxy */ = {
+		C93FEF7CED5A5DBF836473C0813A59E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF4590C80DA0BCFB23334523B614709;
+			remoteInfo = YYCategories;
+		};
+		D401EE542C72DE4A2B2C390A669B0FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		F0EC5F41EDB72DD9C37CAC5B1725B03F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -194,34 +192,34 @@
 
 /* Begin PBXFileReference section */
 		08CB28B675D38B45CE6D56EE5631BC33 /* Pods-SFCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0D3FB7DE9212D62507ED9F7553FC0477 /* UITableViewHeaderFooterView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewHeaderFooterView+SFReuse.m"; sourceTree = "<group>"; };
 		0F3D1478BBEA1FFE83187E2A7ECA86DC /* SFCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCategory.release.xcconfig; sourceTree = "<group>"; };
 		0F5F88F6C7262FD79E538AB0B338EFCC /* UIFont+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YYAdd.h"; path = "YYCategories/UIKit/UIFont+YYAdd.h"; sourceTree = "<group>"; };
-		123781E1228097A3C1451CC5747F7C6E /* UITableViewHeaderFooterView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewHeaderFooterView+SFReuse.h"; sourceTree = "<group>"; };
+		1090EA43BC280BFE9ED836C8A635C8C1 /* UITableViewCell+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewCell+SFReuse.m"; sourceTree = "<group>"; };
 		123E9871FB03E2729E1F9D70AB2E40A5 /* YYCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCategories-Info.plist"; sourceTree = "<group>"; };
-		1243B88B972F8CCBEF14806775CBB88B /* UIView+SFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFFrame.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFFrame.m"; sourceTree = "<group>"; };
 		14B8CF291027054BAA7DEC2430772856 /* NSThread+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+YYAdd.m"; path = "YYCategories/Foundation/NSThread+YYAdd.m"; sourceTree = "<group>"; };
-		163EA8CD1AFEC6D00C91B6C36A3E2825 /* UIView+SFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFFrame.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFFrame.h"; sourceTree = "<group>"; };
+		15FF745F152766779B515E382740E295 /* UIView+SFGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFGesture.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGesture.m"; sourceTree = "<group>"; };
 		165BADCC0DB9C8D91619927ACD2CA60D /* UIBezierPath+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+YYAdd.h"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.h"; sourceTree = "<group>"; };
 		1716B5FBCF0DF55C120AC52CFC22452D /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCategories.framework; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1742EBAE344EB5202BDC0E3EE64E1E74 /* UITableViewCell+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewCell+SFReuse.h"; sourceTree = "<group>"; };
 		184DD837C6D9D4227E76BB6AD5F03669 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYCategories/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		1941C2C773245CA5BAB039363CCDC513 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		19BF089740DBFA6B60203E260E9427A8 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		1A646F0E7897A38D36048255674BFF37 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+YYAdd.h"; path = "YYCategories/Foundation/NSNumber+YYAdd.h"; sourceTree = "<group>"; };
-		1BD38F3946ED42FAEE7AB1912CC93BED /* UIViewController+SFNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SFNavigator.m"; path = "SFCategory/Classes/SFKit/UIViewController/UIViewController+SFNavigator.m"; sourceTree = "<group>"; };
+		1BF4B1B16FB2FB81EF7CC53544F56DC7 /* UIButton+SFEnlargeScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SFEnlargeScope.h"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFEnlargeScope.h"; sourceTree = "<group>"; };
+		1CEC7272B538C4022D7E93234E890E3E /* UICollectionView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionView+SFReuse.h"; sourceTree = "<group>"; };
 		1D88119D42ED3CF8487C236EC92D688C /* NSThread+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+YYAdd.h"; path = "YYCategories/Foundation/NSThread+YYAdd.h"; sourceTree = "<group>"; };
 		1E2872EB631CD4FB60333488E1069039 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+YYAdd.h"; path = "YYCategories/UIKit/UIControl+YYAdd.h"; sourceTree = "<group>"; };
-		1F1542F62A1D07392B2F8D581177205B /* UITableView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableView+SFReuse.h"; sourceTree = "<group>"; };
 		2205610129AAAEAA8CCB17B736A53817 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YYAdd.h"; path = "YYCategories/UIKit/UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		22BA79736D0DAA730CBF4635ADDCA365 /* SFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFKit.h; path = SFCategory/Classes/SFKit/SFKit.h; sourceTree = "<group>"; };
 		230F2069E66D7F62667D2721F2A10BC5 /* Pods-SFCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCategory_Tests-dummy.m"; sourceTree = "<group>"; };
 		236A2EF93E29AD0C0AA26A153E395901 /* NSString+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYAdd.h"; path = "YYCategories/Foundation/NSString+YYAdd.h"; sourceTree = "<group>"; };
 		24A12CB39CA8302F6059B902DB5413DF /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		2541339A99D192CA67BF73A534822268 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
-		29BA9D54815196BB0B3CC23E3A747929 /* UIView+SFGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFGradient.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGradient.h"; sourceTree = "<group>"; };
+		263843EAE1B0FED6767862048BC9D1F6 /* UITableViewHeaderFooterView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewHeaderFooterView+SFReuse.m"; sourceTree = "<group>"; };
 		29E4204716EB0F79518A1454001301AA /* SFCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCategory.debug.xcconfig; sourceTree = "<group>"; };
+		2B43E81FEB7AA6AEBC020E20D48AE2CB /* UIView+SFClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFClip.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFClip.h"; sourceTree = "<group>"; };
+		2D1751A94B8DC31E968DA257FB4BB435 /* UIButton+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SFExtension.m"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFExtension.m"; sourceTree = "<group>"; };
 		2DF9DE5075E8E925B9AE149DDC3ADADC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		310D4E49143B389287569E6CF6059E6E /* UICollectionView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionView+SFReuse.h"; sourceTree = "<group>"; };
+		3029266CDA7299DEBAFA0E52A0FADBD6 /* UIViewController+SFNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SFNavigator.m"; path = "SFCategory/Classes/SFKit/UIViewController/UIViewController+SFNavigator.m"; sourceTree = "<group>"; };
 		3326752550B3277C7BC0175978131A33 /* NSData+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YYAdd.m"; path = "YYCategories/Foundation/NSData+YYAdd.m"; sourceTree = "<group>"; };
 		3629772EF5B8ECA9B9A51C5A47201CF9 /* Pods-SFCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		380A9B7442FDBB0830B9962719DADB68 /* NSObject+YYAddForARC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForARC.h"; path = "YYCategories/Foundation/NSObject+YYAddForARC.h"; sourceTree = "<group>"; };
@@ -236,61 +234,56 @@
 		471D5CF2838A18A690C8996A8142EACC /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		48B92364D2AAECD88A21BABC360CA01A /* NSKeyedUnarchiver+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSKeyedUnarchiver+YYAdd.h"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.h"; sourceTree = "<group>"; };
 		49A19D2730463C2BBBCA1E00B31DF0A5 /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForKVO.m"; path = "YYCategories/Foundation/NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
-		4BA9F98D5F2B8F188A4544CFD5458B0B /* UICollectionViewCell+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionViewCell+SFReuse.m"; sourceTree = "<group>"; };
+		4B34482A5A4CE3A438E2A62CDDD639D8 /* UITableView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableView+SFReuse.h"; sourceTree = "<group>"; };
 		4C14178256AED336C27A30617F340B60 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		4CA02CD8C834AB5FFDD2D5BC6D35634E /* UIView+SFGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFGesture.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGesture.h"; sourceTree = "<group>"; };
 		4EF2D92BE4ADB8E527576966670E9889 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		4F379AA30C84512CB682BC26426A488C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		4F61CE40E53D715830FE88D4121B8E55 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		5082924D6ABBF6FDF69B12A068F02D4D /* SFCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		55A21226ABF29D70D12F180991A71AFB /* UITableViewCell+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewCell+SFReuse.m"; sourceTree = "<group>"; };
 		56105E19156450818E0ABD1135C5B071 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		565C9D48F9364D629A174501E6F3A54A /* UICollectionReusableView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionReusableView+SFReuse.h"; sourceTree = "<group>"; };
 		566C9E7E083AA022F5C6450001F03CD3 /* NSNotificationCenter+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YYAdd.h"; path = "YYCategories/Foundation/NSNotificationCenter+YYAdd.h"; sourceTree = "<group>"; };
+		56AF4D688E2BF9CCC8173BC47C2AA2A2 /* SFReusedProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFReusedProtocol.h; path = SFCategory/Classes/SFKit/SFProtocol/SFReusedProtocol.h; sourceTree = "<group>"; };
 		57020D4B33FFAEEA3872E190F1F9B7F8 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAdd.h"; path = "YYCategories/Foundation/NSObject+YYAdd.h"; sourceTree = "<group>"; };
 		58B14527806F058354744F83EA6CA6C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		5C4C0B6E5EDDF125857EF053EC28A4A8 /* Pods_SFCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCategory_Example.framework; path = "Pods-SFCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D52C1CFC42CAB178B19A9DAC2FE9E33 /* NSNotificationCenter+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+YYAdd.m"; path = "YYCategories/Foundation/NSNotificationCenter+YYAdd.m"; sourceTree = "<group>"; };
-		5DC5E7F5ABECF93D1F75EE05C185D719 /* UIButton+SFEnlargeScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SFEnlargeScope.h"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFEnlargeScope.h"; sourceTree = "<group>"; };
 		5F26B9077AD4E90608F42CB90A4E2A55 /* CALayer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYAdd.m"; path = "YYCategories/Quartz/CALayer+YYAdd.m"; sourceTree = "<group>"; };
 		616F1ACF3D5548F7A06E8102171E02D5 /* NSDictionary+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YYAdd.h"; path = "YYCategories/Foundation/NSDictionary+YYAdd.h"; sourceTree = "<group>"; };
+		6171F8366380D0CB018914564AF5A9E7 /* UICollectionViewCell+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionViewCell+SFReuse.h"; sourceTree = "<group>"; };
 		621A2FC3AEC15C8DBC9ECBBD9A55851D /* Pods-SFCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		632806306E07A1E75B2D995E68009EEC /* NSData+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+YYAdd.h"; path = "YYCategories/Foundation/NSData+YYAdd.h"; sourceTree = "<group>"; };
-		65DCFC513F86A6E41E1A27BBC28B5BC2 /* UITableView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableView+SFReuse.m"; sourceTree = "<group>"; };
 		660D08027B1C74445E95F85F864F6921 /* UIView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYAdd.h"; path = "YYCategories/UIKit/UIView+YYAdd.h"; sourceTree = "<group>"; };
+		664430EFEB8E5498BB7781C270A0FDE4 /* UITableViewHeaderFooterView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewHeaderFooterView+SFReuse.h"; sourceTree = "<group>"; };
 		673A6B7712AF6E32FCB720D8F627FA16 /* SFCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCategory-Info.plist"; sourceTree = "<group>"; };
 		68E053AA4ABB45A88048C1912831AE8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A18AACA35FB304714DF0596231D149E /* Pods-SFCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCategory_Tests.modulemap"; sourceTree = "<group>"; };
-		6AA3A5A2AE75ED1047BD9F8E29700708 /* UIView+SFClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFClip.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFClip.h"; sourceTree = "<group>"; };
 		6B8579E28DF2461FF19D3FE322D79A6D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		6C0261051C9FAFC6B5050065BD1FA7F6 /* SFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFFoundation.h; path = SFCategory/Classes/SFFoundation/SFFoundation.h; sourceTree = "<group>"; };
+		6DD5BDE8737EB530DD7E7D70A1205D7D /* UIImage+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SFExtension.m"; path = "SFCategory/Classes/SFKit/UIImage/UIImage+SFExtension.m"; sourceTree = "<group>"; };
+		6DF7B9318800D7714DA327DA716D8B33 /* UICollectionReusableView+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionReusableView+SFReuse.h"; sourceTree = "<group>"; };
 		6E37B11546DE7FFFEC47B49B600B5A69 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		6F668F501B0B3893DBDE42BF38E4C5F3 /* SFReusedProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFReusedProtocol.h; path = SFCategory/Classes/SFKit/SFProtocol/SFReusedProtocol.h; sourceTree = "<group>"; };
-		6FE54FA2BBEAF791C48B3D0FCC38BDDF /* UICollectionView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionView+SFReuse.m"; sourceTree = "<group>"; };
 		700ADB16CA14EA6CB2B5CB7C990524FD /* YYCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCategories.release.xcconfig; sourceTree = "<group>"; };
+		70B8A4A507243DE830E8D8B55088A2FC /* UIButton+SFEnlargeScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SFEnlargeScope.m"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFEnlargeScope.m"; sourceTree = "<group>"; };
+		71DEE9396600AB8B2848F2549F92D1D4 /* UIViewController+SFNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SFNavigator.h"; path = "SFCategory/Classes/SFKit/UIViewController/UIViewController+SFNavigator.h"; sourceTree = "<group>"; };
 		757D88C1B1F392B90E7D803687B51044 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		76D10FD7AE58CC8400C670B0AE139869 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		78CC92CFD7DD836D4983B776F6F2FCCF /* UIBarButtonItem+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+YYAdd.h"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.h"; sourceTree = "<group>"; };
 		795DB5D46B29FA270C4C84FD22FDC2D5 /* SFCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCategory-umbrella.h"; sourceTree = "<group>"; };
-		7B306E6522175BC605CB28CA8171B145 /* UIView+SFAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFAnimation.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFAnimation.m"; sourceTree = "<group>"; };
 		7BFBE1BC01BECB30E21C60C3E58B1D04 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYCategories/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
 		7D9F7A823D22DDBDC4C80BBD90598AAB /* UITextField+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YYAdd.h"; path = "YYCategories/UIKit/UITextField+YYAdd.h"; sourceTree = "<group>"; };
 		7DE733AF9C6D7F30B8F5D1C9D69261BE /* Pods-SFCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCategory_Example-Info.plist"; sourceTree = "<group>"; };
 		7DF6EE4F722365EB15A1CF4904AB3D48 /* Pods-SFCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCategory_Example-dummy.m"; sourceTree = "<group>"; };
-		7F40CACA90AFBA320AF11D6A07A7BA4C /* UICollectionViewCell+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+SFReuse.h"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionViewCell+SFReuse.h"; sourceTree = "<group>"; };
-		7FE3EFBB06189E03B8272FDAC76EF68B /* UIButton+SFEnlargeScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SFEnlargeScope.m"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFEnlargeScope.m"; sourceTree = "<group>"; };
 		81F432B8A9223EEAD95DFAF4F134E476 /* Pods-SFCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		824109CBBD1E3BFE5926A0B37AFB07F7 /* UIBezierPath+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+YYAdd.m"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.m"; sourceTree = "<group>"; };
-		841BF29E830D817E408BBE5B70809C39 /* UIView+SFGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFGesture.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGesture.m"; sourceTree = "<group>"; };
 		843BCA508A95DB886B7302BD1BF56E2C /* YYCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCategories-umbrella.h"; sourceTree = "<group>"; };
+		848241A5769FDE1F17EC4A5851C5622D /* UIView+SFAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFAnimation.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFAnimation.m"; sourceTree = "<group>"; };
 		84E3B25E6C7F278EAEF5C7FDABC89895 /* Pods-SFCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		87AD733DCE54CA4FB53BFD2DEDE0013A /* UITableView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+YYAdd.m"; path = "YYCategories/UIKit/UITableView+YYAdd.m"; sourceTree = "<group>"; };
 		883211371627D29A489166725C219B62 /* NSTimer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+YYAdd.h"; path = "YYCategories/Foundation/NSTimer+YYAdd.h"; sourceTree = "<group>"; };
 		88975FCFAFC23318F2779A8A8C10C7B5 /* Pods-SFCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCategory_Example.modulemap"; sourceTree = "<group>"; };
 		8A91A932B71BF4331EECD176072A02E1 /* YYCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCGUtilities.h; path = YYCategories/Quartz/YYCGUtilities.h; sourceTree = "<group>"; };
 		8AB70360BCEE2B0AECAEB3DF23E48765 /* UIColor+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YYAdd.h"; path = "YYCategories/UIKit/UIColor+YYAdd.h"; sourceTree = "<group>"; };
-		8ECA3407249817B8EDBE071E9DC1033C /* UICollectionReusableView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionReusableView+SFReuse.m"; sourceTree = "<group>"; };
 		8EEF351ADEFDC9F7CEAC2FA25C075BF3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8F3D5864DF9B5FB73EC428D3326727AA /* NSString+SFRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SFRegex.m"; path = "SFCategory/Classes/SFFoundation/NSString/NSString+SFRegex.m"; sourceTree = "<group>"; };
 		904CA97727A10A10D0F1BB19AF6F8ACD /* Pods-SFCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -298,23 +291,24 @@
 		92A1B6A7748E31935A5C24EE4C754B71 /* UIScrollView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+YYAdd.m"; path = "YYCategories/UIKit/UIScrollView+YYAdd.m"; sourceTree = "<group>"; };
 		933E37EDCACE3A40B9AADB8894096B89 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYCategories/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
 		939A6C5C11DAEB45F3C042A8CC9EB85B /* UIView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYAdd.m"; path = "YYCategories/UIKit/UIView+YYAdd.m"; sourceTree = "<group>"; };
+		96568B3F27B8433003C8183297E40EC3 /* UITableViewCell+SFReuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+SFReuse.h"; path = "SFCategory/Classes/SFKit/UITableView/UITableViewCell+SFReuse.h"; sourceTree = "<group>"; };
+		97514A8CF4DB2155FCEBF931C4F16741 /* UICollectionView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionView+SFReuse.m"; sourceTree = "<group>"; };
 		9826AFF3BE05CFED17AE929F9F3BEC37 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		9B3215D306900088A45B2C24DBEE1D2C /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YYAdd.h"; path = "YYCategories/UIKit/UIApplication+YYAdd.h"; sourceTree = "<group>"; };
+		9D03FD2108377A1DACBF2B646D68125A /* UIView+SFGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFGradient.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGradient.m"; sourceTree = "<group>"; };
 		9D48C0A8EEAFCF315CF96617989078C4 /* YYCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCategories.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F50631348814A02B02794DAB6892B52 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YYAdd.m"; path = "YYCategories/Foundation/NSDate+YYAdd.m"; sourceTree = "<group>"; };
 		9F887618F9B8A11CC67CDD3382358F52 /* Pods-SFCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCategory_Tests-Info.plist"; sourceTree = "<group>"; };
+		9FC3365BC955011FF3035D558773009F /* UIView+SFClip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFClip.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFClip.m"; sourceTree = "<group>"; };
 		A07EE4B6D3FD83186881F5E9E3FD3736 /* Pods-SFCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A09701EEE4406CD72E7E972C5E6B00BD /* NSString+SFRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SFRegex.h"; path = "SFCategory/Classes/SFFoundation/NSString/NSString+SFRegex.h"; sourceTree = "<group>"; };
 		A33A74FC8F64C0E7A09251ABEF49F3F5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		A3B16053AF8A642ED74375619B706F01 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		A64402B7CDBCCAF254D4CD06BEF0FC36 /* UIButton+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SFExtension.h"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFExtension.h"; sourceTree = "<group>"; };
-		A6B921067E73F741ECDF669F7873DEC5 /* UIView+SFClip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFClip.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFClip.m"; sourceTree = "<group>"; };
 		A88CF90AB4FF14F5B45D0E3CDFB516AF /* UIImage+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYAdd.m"; path = "YYCategories/UIKit/UIImage+YYAdd.m"; sourceTree = "<group>"; };
 		A908594F6C2E60753DB2A93214E3A92D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		A91BB84DEF5AED8CE9593283B9FCB2C9 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYCategories/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
-		ADD0D9B9E4C80E7AF97926780D0CE859 /* UIView+SFAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFAnimation.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFAnimation.h"; sourceTree = "<group>"; };
-		B0016643B571C428ECD6478E7719B0E7 /* SFTableViewReusedProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFTableViewReusedProtocol.h; path = SFCategory/Classes/SFKit/SFProtocol/SFTableViewReusedProtocol.h; sourceTree = "<group>"; };
+		AA54FCFB7167FD41D4BA560FA8281C6C /* UIView+SFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFFrame.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFFrame.m"; sourceTree = "<group>"; };
 		B006BCBB5BB1294EC0A1A5B2B305C12A /* YYCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategories.h; path = YYCategories/YYCategories.h; sourceTree = "<group>"; };
 		B026A49C4599F58777DA27FAEE14558B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B1E15A54D6017C98E0C45C3D5351F8B8 /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = YYCategories/Quartz/YYCGUtilities.m; sourceTree = "<group>"; };
@@ -323,20 +317,20 @@
 		B62B4674DF2AB4163AB6D9ED85C1EB7F /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "YYCategories/Foundation/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		B951780D2979EB676EC64C57FC943617 /* UIScreen+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+YYAdd.h"; path = "YYCategories/UIKit/UIScreen+YYAdd.h"; sourceTree = "<group>"; };
 		BBF9A7AC21ED8CA4E075C72AB4ECA81F /* NSKeyedUnarchiver+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+YYAdd.m"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m"; sourceTree = "<group>"; };
-		BCB7FCB2CC6F029FABBDB4F03AE31B66 /* UIImage+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SFExtension.h"; path = "SFCategory/Classes/SFKit/UIImage/UIImage+SFExtension.h"; sourceTree = "<group>"; };
 		BCE96BA7048CB700F4BA242F8AB33F32 /* SFCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFCategory.framework; path = SFCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6C6011C6E5591870521BAFCFF651D3 /* UIFont+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+YYAdd.m"; path = "YYCategories/UIKit/UIFont+YYAdd.m"; sourceTree = "<group>"; };
 		BE6D3907CA431F99C127EDE7E102AF65 /* Pods-SFCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BE916B8BD6E596DD6FA91595DD9D96D7 /* Pods-SFCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCategory_Example-umbrella.h"; sourceTree = "<group>"; };
+		BEEBD5FEE6309A29B4A350C214BFC916 /* UIView+SFGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFGesture.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGesture.h"; sourceTree = "<group>"; };
 		BEEE560463B984F1294D7247B928D46D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		C032CDB4346DA0F3B9FDC47B71B70730 /* UIImage+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SFExtension.m"; path = "SFCategory/Classes/SFKit/UIImage/UIImage+SFExtension.m"; sourceTree = "<group>"; };
-		C2CE44130ECC5246519EA51BD00F0907 /* UIView+SFGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFGradient.m"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGradient.m"; sourceTree = "<group>"; };
+		BFBE4A2E0E85AC4312EAB8D095BB7A07 /* UIView+SFGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFGradient.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFGradient.h"; sourceTree = "<group>"; };
 		C3FD58E16B14897CF849859DD75B7665 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYCategories/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
+		C4056516FF51208C33DEAFC9BA6BBAB5 /* UICollectionReusableView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionReusableView+SFReuse.m"; sourceTree = "<group>"; };
 		C40CB68F35D70F1621E5212054CD4415 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "YYCategories/Foundation/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		C485EA6C146152386536C89935215ABD /* NSTimer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+YYAdd.m"; path = "YYCategories/Foundation/NSTimer+YYAdd.m"; sourceTree = "<group>"; };
 		C620830EEC10D5CDC1652B5A002CFD07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		C85AE9CEA1F971DC3089D22798139D21 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+YYAdd.m"; path = "YYCategories/UIKit/UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
-		C938ECADF4407359FC95E9BB2723C78E /* SFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFKit.h; path = SFCategory/Classes/SFKit/SFKit.h; sourceTree = "<group>"; };
+		CB417EAD89536D3F07B01A906890A465 /* UIView+SFAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFAnimation.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFAnimation.h"; sourceTree = "<group>"; };
 		CBCD7256549455F4411CA58CF40B8325 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		CC3302AE9012C51B0A1B9BC6EA95EFC5 /* NSObject+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SFExtension.h"; path = "SFCategory/Classes/SFFoundation/NSObject/NSObject+SFExtension.h"; sourceTree = "<group>"; };
 		CDF6D93F6BDE42CD72E721F980F8AD3C /* UIBarButtonItem+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+YYAdd.m"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.m"; sourceTree = "<group>"; };
@@ -349,21 +343,23 @@
 		D61EA3A805E984D67571CAC541E20CA7 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAdd.m"; path = "YYCategories/Foundation/NSObject+YYAdd.m"; sourceTree = "<group>"; };
 		D6DDFDCB7119B1E2DBD5DDF41D3DE1F0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		D94B44176FBA8CC2C31D239AB339C4CB /* YYCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCategories.debug.xcconfig; sourceTree = "<group>"; };
-		DF118D3A8C0AD8930DF4FEEE5069C925 /* UIButton+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SFExtension.m"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFExtension.m"; sourceTree = "<group>"; };
-		DF4F6591F2B0DECEC076A555431F1EF7 /* SFCollectionViewReusedProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFCollectionViewReusedProtocol.h; path = SFCategory/Classes/SFKit/SFProtocol/SFCollectionViewReusedProtocol.h; sourceTree = "<group>"; };
+		DB614A81763C183A37658423ABA7D812 /* UIView+SFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SFFrame.h"; path = "SFCategory/Classes/SFKit/UIView/UIView+SFFrame.h"; sourceTree = "<group>"; };
+		DC31320305E69B5C80828B7ACAD272F2 /* UITableView+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SFReuse.m"; path = "SFCategory/Classes/SFKit/UITableView/UITableView+SFReuse.m"; sourceTree = "<group>"; };
 		E005C0D610CA500E7D98764D9563DA90 /* CALayer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYAdd.h"; path = "YYCategories/Quartz/CALayer+YYAdd.h"; sourceTree = "<group>"; };
 		E208580ADC9B885BD038FF8735C379CD /* SFCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCategory-prefix.pch"; sourceTree = "<group>"; };
 		E4A46409AFC17F1DDBE37CDB07E11EB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E5B40DA76537C83556B8ED22E9FE8F48 /* YYCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCategories-prefix.pch"; sourceTree = "<group>"; };
 		E5B5C7AC563A11CDA36642555FC5B0E3 /* SFCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCategory-dummy.m"; sourceTree = "<group>"; };
-		E7F0B550C3A98BD49EED06CD3DC83103 /* UIViewController+SFNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SFNavigator.h"; path = "SFCategory/Classes/SFKit/UIViewController/UIViewController+SFNavigator.h"; sourceTree = "<group>"; };
 		E7FACAFF01B00C3FEA810D4E662E2026 /* Pods_SFCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCategory_Tests.framework; path = "Pods-SFCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DA735448B9A0C2CF9081B02699EB71 /* UIImage+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SFExtension.h"; path = "SFCategory/Classes/SFKit/UIImage/UIImage+SFExtension.h"; sourceTree = "<group>"; };
 		EBFB9E0FA83A77F1413CC97B72B78F5D /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+YYAdd.h"; path = "YYCategories/UIKit/UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
 		EE2F5BA605B4B69FC77BF86919468DEE /* UITextField+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YYAdd.m"; path = "YYCategories/UIKit/UITextField+YYAdd.m"; sourceTree = "<group>"; };
 		EF19A5C87E8F8729F69CE511602DA873 /* NSString+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYAdd.m"; path = "YYCategories/Foundation/NSString+YYAdd.m"; sourceTree = "<group>"; };
+		EFF65EC840311BF4CE177358C2FB2AE2 /* UIButton+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SFExtension.h"; path = "SFCategory/Classes/SFKit/UIButton/UIButton+SFExtension.h"; sourceTree = "<group>"; };
 		F0189C534376683C3956E0F40402F024 /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForKVO.h"; path = "YYCategories/Foundation/NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
 		F15642949459B97021FC93D08C7CD2C4 /* NSArray+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YYAdd.m"; path = "YYCategories/Foundation/NSArray+YYAdd.m"; sourceTree = "<group>"; };
 		F191FDA08B333EACE852662C3B54038D /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYCategories/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
+		F35812837F7E16D140849A61C6B991A8 /* UICollectionViewCell+SFReuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+SFReuse.m"; path = "SFCategory/Classes/SFKit/UICollectionView/UICollectionViewCell+SFReuse.m"; sourceTree = "<group>"; };
 		F59C5DBA2A3F4BE6144CEF88FCB3F423 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EF74BB6712407C2625CA0DAD8BE1DA /* Pods-SFCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA25D527668BC49E777E6FED2BF205A1 /* NSObject+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SFExtension.m"; path = "SFCategory/Classes/SFFoundation/NSObject/NSObject+SFExtension.m"; sourceTree = "<group>"; };
@@ -388,29 +384,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D29E306FC13E96D5A0670EED645DD183 /* Frameworks */ = {
+		AE9D01553F22459F240B72AE99FDAE92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87D99E1E577DBE33AC331D76CDE6567 /* Foundation.framework in Frameworks */,
-				E666E07ECFB549E0D24DAC4EDFD8E1D6 /* UIKit.framework in Frameworks */,
-				FCEE7402F2C4077407408C896F8B6D79 /* YYCategories.framework in Frameworks */,
+				4822618EA4EDA0E7A5533E83DC86E4CC /* Accelerate.framework in Frameworks */,
+				076E26A4E62E566B84AEA7B78EAADF3D /* CoreFoundation.framework in Frameworks */,
+				D3D52809B271273674888931354361D5 /* CoreGraphics.framework in Frameworks */,
+				7881B0D62A92820288464E8416F8580F /* CoreImage.framework in Frameworks */,
+				72302CC9154B1A8D1DBA909872C614A1 /* CoreText.framework in Frameworks */,
+				134CCB3AACBA21683B4D8005B6E8DF41 /* Foundation.framework in Frameworks */,
+				60DB45293A4E6454B9A07601A176FD76 /* ImageIO.framework in Frameworks */,
+				6E0CCD6DCF70E037FD7EE34880470686 /* QuartzCore.framework in Frameworks */,
+				AC273147E8931B75868BE7623FE2439E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D366EA4B5C82F6D2A9745D16E5F8265C /* Frameworks */ = {
+		BDFC311A710BEDE9F9036C09585C69D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C88ED8694E224189E3C86A00AF4F5DE0 /* Accelerate.framework in Frameworks */,
-				18F1F3B844BF209F30FD9F9BF815D8CC /* CoreFoundation.framework in Frameworks */,
-				857788344F0BCBF55ECEB877CC66643B /* CoreGraphics.framework in Frameworks */,
-				AFD737CF0AD2A32CA313AE5A66DD087D /* CoreImage.framework in Frameworks */,
-				615BCE3417A3758051803CDF0B9A2E8E /* CoreText.framework in Frameworks */,
-				8E3012CD920E276419E8DA39D55B989E /* Foundation.framework in Frameworks */,
-				C20B14C70C112ECA3DEA3FE14285A418 /* ImageIO.framework in Frameworks */,
-				CAA0CDF26DFF9A8C78C53D63AC0B59D7 /* QuartzCore.framework in Frameworks */,
-				73615A57D95A0056FD2B120AA980C7D2 /* UIKit.framework in Frameworks */,
+				3F62C8ED785B0F3B32377C0E5E7D485C /* Foundation.framework in Frameworks */,
+				1EBD7B52E5258C3A0D2E64A9AB32D933 /* UIKit.framework in Frameworks */,
+				A493DA0BF63552123A1B25FFE7C1B306 /* YYCategories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +424,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06623A9A52A386B41BD74695D159FD89 /* SFProtocol */ = {
+		06F8E888FB07D4E3612C5258D57BC567 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				DF4F6591F2B0DECEC076A555431F1EF7 /* SFCollectionViewReusedProtocol.h */,
-				6F668F501B0B3893DBDE42BF38E4C5F3 /* SFReusedProtocol.h */,
-				B0016643B571C428ECD6478E7719B0E7 /* SFTableViewReusedProtocol.h */,
+				CB417EAD89536D3F07B01A906890A465 /* UIView+SFAnimation.h */,
+				848241A5769FDE1F17EC4A5851C5622D /* UIView+SFAnimation.m */,
+				2B43E81FEB7AA6AEBC020E20D48AE2CB /* UIView+SFClip.h */,
+				9FC3365BC955011FF3035D558773009F /* UIView+SFClip.m */,
+				DB614A81763C183A37658423ABA7D812 /* UIView+SFFrame.h */,
+				AA54FCFB7167FD41D4BA560FA8281C6C /* UIView+SFFrame.m */,
+				BEEBD5FEE6309A29B4A350C214BFC916 /* UIView+SFGesture.h */,
+				15FF745F152766779B515E382740E295 /* UIView+SFGesture.m */,
+				BFBE4A2E0E85AC4312EAB8D095BB7A07 /* UIView+SFGradient.h */,
+				9D03FD2108377A1DACBF2B646D68125A /* UIView+SFGradient.m */,
 			);
-			name = SFProtocol;
+			name = UIView;
 			sourceTree = "<group>";
 		};
 		0C88F3BB137F255889C9257B7908D05D /* Pods-SFCategory_Example */ = {
@@ -495,6 +498,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2BA90A3BCB0D30560E41D097EDC89E18 /* SFProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				56AF4D688E2BF9CCC8173BC47C2AA2A2 /* SFReusedProtocol.h */,
+			);
+			name = SFProtocol;
+			sourceTree = "<group>";
+		};
+		2F32E086D9865FAF2D980E015F020FC9 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				4B34482A5A4CE3A438E2A62CDDD639D8 /* UITableView+SFReuse.h */,
+				DC31320305E69B5C80828B7ACAD272F2 /* UITableView+SFReuse.m */,
+				96568B3F27B8433003C8183297E40EC3 /* UITableViewCell+SFReuse.h */,
+				1090EA43BC280BFE9ED836C8A635C8C1 /* UITableViewCell+SFReuse.m */,
+				664430EFEB8E5498BB7781C270A0FDE4 /* UITableViewHeaderFooterView+SFReuse.h */,
+				263843EAE1B0FED6767862048BC9D1F6 /* UITableViewHeaderFooterView+SFReuse.m */,
+			);
+			name = UITableView;
+			sourceTree = "<group>";
+		};
 		2FF821CD89E75888037AD5BDA5C79529 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,32 +528,6 @@
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		357A2D925D8B8DDEFBB65DCDE77B9A11 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				ADD0D9B9E4C80E7AF97926780D0CE859 /* UIView+SFAnimation.h */,
-				7B306E6522175BC605CB28CA8171B145 /* UIView+SFAnimation.m */,
-				6AA3A5A2AE75ED1047BD9F8E29700708 /* UIView+SFClip.h */,
-				A6B921067E73F741ECDF669F7873DEC5 /* UIView+SFClip.m */,
-				163EA8CD1AFEC6D00C91B6C36A3E2825 /* UIView+SFFrame.h */,
-				1243B88B972F8CCBEF14806775CBB88B /* UIView+SFFrame.m */,
-				4CA02CD8C834AB5FFDD2D5BC6D35634E /* UIView+SFGesture.h */,
-				841BF29E830D817E408BBE5B70809C39 /* UIView+SFGesture.m */,
-				29BA9D54815196BB0B3CC23E3A747929 /* UIView+SFGradient.h */,
-				C2CE44130ECC5246519EA51BD00F0907 /* UIView+SFGradient.m */,
-			);
-			name = UIView;
-			sourceTree = "<group>";
-		};
-		3EB164735A3B43CA2100A9BC683E0051 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E7F0B550C3A98BD49EED06CD3DC83103 /* UIViewController+SFNavigator.h */,
-				1BD38F3946ED42FAEE7AB1912CC93BED /* UIViewController+SFNavigator.m */,
-			);
-			name = UIViewController;
 			sourceTree = "<group>";
 		};
 		4C54575A4D330AA93BDC131DE868A111 /* NSObject */ = {
@@ -568,43 +566,22 @@
 			path = "Target Support Files/Pods-SFCategory_Tests";
 			sourceTree = "<group>";
 		};
-		5DC0752B3C668AFC6897A47FBD8B9419 /* UIButton */ = {
+		607762A68EBF230481E5DD0871488BA9 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				5DC5E7F5ABECF93D1F75EE05C185D719 /* UIButton+SFEnlargeScope.h */,
-				7FE3EFBB06189E03B8272FDAC76EF68B /* UIButton+SFEnlargeScope.m */,
-				A64402B7CDBCCAF254D4CD06BEF0FC36 /* UIButton+SFExtension.h */,
-				DF118D3A8C0AD8930DF4FEEE5069C925 /* UIButton+SFExtension.m */,
+				E8DA735448B9A0C2CF9081B02699EB71 /* UIImage+SFExtension.h */,
+				6DD5BDE8737EB530DD7E7D70A1205D7D /* UIImage+SFExtension.m */,
 			);
-			name = UIButton;
+			name = UIImage;
 			sourceTree = "<group>";
 		};
-		5E91A7B12B1A2BD9B91579A06872D276 /* UITableView */ = {
+		690B0A796468D36076E46358F525DE94 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1F1542F62A1D07392B2F8D581177205B /* UITableView+SFReuse.h */,
-				65DCFC513F86A6E41E1A27BBC28B5BC2 /* UITableView+SFReuse.m */,
-				1742EBAE344EB5202BDC0E3EE64E1E74 /* UITableViewCell+SFReuse.h */,
-				55A21226ABF29D70D12F180991A71AFB /* UITableViewCell+SFReuse.m */,
-				123781E1228097A3C1451CC5747F7C6E /* UITableViewHeaderFooterView+SFReuse.h */,
-				0D3FB7DE9212D62507ED9F7553FC0477 /* UITableViewHeaderFooterView+SFReuse.m */,
+				71DEE9396600AB8B2848F2549F92D1D4 /* UIViewController+SFNavigator.h */,
+				3029266CDA7299DEBAFA0E52A0FADBD6 /* UIViewController+SFNavigator.m */,
 			);
-			name = UITableView;
-			sourceTree = "<group>";
-		};
-		63CE86F9BE0B7FC753C3DFEB636E15EC /* SFKit */ = {
-			isa = PBXGroup;
-			children = (
-				C938ECADF4407359FC95E9BB2723C78E /* SFKit.h */,
-				06623A9A52A386B41BD74695D159FD89 /* SFProtocol */,
-				5DC0752B3C668AFC6897A47FBD8B9419 /* UIButton */,
-				CBDB0FF2D2167266295DD457C56E423F /* UICollectionView */,
-				BFCA03668171941442097F0E5EA633F6 /* UIImage */,
-				5E91A7B12B1A2BD9B91579A06872D276 /* UITableView */,
-				357A2D925D8B8DDEFBB65DCDE77B9A11 /* UIView */,
-				3EB164735A3B43CA2100A9BC683E0051 /* UIViewController */,
-			);
-			name = SFKit;
+			name = UIViewController;
 			sourceTree = "<group>";
 		};
 		7AD72EEC25F8933F2C5F71CF97829849 /* YYCategories */ = {
@@ -681,7 +658,7 @@
 				FA9A4BFFABF74728E491EA4FB54B4704 /* SFCategory.h */,
 				0D45910BFD1D61DB7A2892F451FDEAB5 /* Pod */,
 				5591988281F798A0C16D4D55561F382C /* SFFoundation */,
-				63CE86F9BE0B7FC753C3DFEB636E15EC /* SFKit */,
+				BB61031B2FCF3C6892506B6FBDD92FF4 /* SFKit */,
 				D31EC27036563BE80EB477446EB849A7 /* Support Files */,
 			);
 			name = SFCategory;
@@ -697,13 +674,43 @@
 			name = NSString;
 			sourceTree = "<group>";
 		};
-		BFCA03668171941442097F0E5EA633F6 /* UIImage */ = {
+		83E75D5501F829236713FE2D20183A58 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				BCB7FCB2CC6F029FABBDB4F03AE31B66 /* UIImage+SFExtension.h */,
-				C032CDB4346DA0F3B9FDC47B71B70730 /* UIImage+SFExtension.m */,
+				1BF4B1B16FB2FB81EF7CC53544F56DC7 /* UIButton+SFEnlargeScope.h */,
+				70B8A4A507243DE830E8D8B55088A2FC /* UIButton+SFEnlargeScope.m */,
+				EFF65EC840311BF4CE177358C2FB2AE2 /* UIButton+SFExtension.h */,
+				2D1751A94B8DC31E968DA257FB4BB435 /* UIButton+SFExtension.m */,
 			);
-			name = UIImage;
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		8E403DC3481DC3F8F1BB23313C143650 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6DF7B9318800D7714DA327DA716D8B33 /* UICollectionReusableView+SFReuse.h */,
+				C4056516FF51208C33DEAFC9BA6BBAB5 /* UICollectionReusableView+SFReuse.m */,
+				1CEC7272B538C4022D7E93234E890E3E /* UICollectionView+SFReuse.h */,
+				97514A8CF4DB2155FCEBF931C4F16741 /* UICollectionView+SFReuse.m */,
+				6171F8366380D0CB018914564AF5A9E7 /* UICollectionViewCell+SFReuse.h */,
+				F35812837F7E16D140849A61C6B991A8 /* UICollectionViewCell+SFReuse.m */,
+			);
+			name = UICollectionView;
+			sourceTree = "<group>";
+		};
+		BB61031B2FCF3C6892506B6FBDD92FF4 /* SFKit */ = {
+			isa = PBXGroup;
+			children = (
+				22BA79736D0DAA730CBF4635ADDCA365 /* SFKit.h */,
+				2BA90A3BCB0D30560E41D097EDC89E18 /* SFProtocol */,
+				83E75D5501F829236713FE2D20183A58 /* UIButton */,
+				8E403DC3481DC3F8F1BB23313C143650 /* UICollectionView */,
+				607762A68EBF230481E5DD0871488BA9 /* UIImage */,
+				2F32E086D9865FAF2D980E015F020FC9 /* UITableView */,
+				06F8E888FB07D4E3612C5258D57BC567 /* UIView */,
+				690B0A796468D36076E46358F525DE94 /* UIViewController */,
+			);
+			name = SFKit;
 			sourceTree = "<group>";
 		};
 		C8F72550AF7BE56281EF08EBF04016CF /* Support Files */ = {
@@ -719,19 +726,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		CBDB0FF2D2167266295DD457C56E423F /* UICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				565C9D48F9364D629A174501E6F3A54A /* UICollectionReusableView+SFReuse.h */,
-				8ECA3407249817B8EDBE071E9DC1033C /* UICollectionReusableView+SFReuse.m */,
-				310D4E49143B389287569E6CF6059E6E /* UICollectionView+SFReuse.h */,
-				6FE54FA2BBEAF791C48B3D0FCC38BDDF /* UICollectionView+SFReuse.m */,
-				7F40CACA90AFBA320AF11D6A07A7BA4C /* UICollectionViewCell+SFReuse.h */,
-				4BA9F98D5F2B8F188A4544CFD5458B0B /* UICollectionViewCell+SFReuse.m */,
-			);
-			name = UICollectionView;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -876,34 +870,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3951BA555094F2EDB86E92F1A039016E /* Headers */ = {
+		596EAE1416156E72FE18B791153F1294 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9859CCACB7A5F4E39854A9F0B7C1411C /* NSObject+SFExtension.h in Headers */,
-				5FAFBBE1FE1028721EC2F94DF2DA37B6 /* NSString+SFRegex.h in Headers */,
-				05EA18691C261D53CCDC1E92B1AB9D6F /* SFCategory-umbrella.h in Headers */,
-				AA8C69D1E0C15DE48E3DA25D8F9E0770 /* SFCategory.h in Headers */,
-				B2E444CDD4C8F7C324B56472D17D38D9 /* SFCollectionViewReusedProtocol.h in Headers */,
-				22CB649942CDD74DD867A987A58F8A1C /* SFFoundation.h in Headers */,
-				FC8168E770B2A0ACE14CD0B68BB803F7 /* SFKit.h in Headers */,
-				D85626E0106B785737D35BA6A3894FBC /* SFReusedProtocol.h in Headers */,
-				EC699094C0EBD5785E0AE3DA81701B34 /* SFTableViewReusedProtocol.h in Headers */,
-				3A4D74505EDEB8797A04135C156C329D /* UIButton+SFEnlargeScope.h in Headers */,
-				96FDE9D8D5DABD4230ED1D23A80AC0D6 /* UIButton+SFExtension.h in Headers */,
-				336F25478CC0E0149FB8B6401BBBDD2C /* UICollectionReusableView+SFReuse.h in Headers */,
-				305D0A75CCE1C7B90A4C7EAE6BB6B582 /* UICollectionView+SFReuse.h in Headers */,
-				10521FEF2CF7776F179EC06880924B81 /* UICollectionViewCell+SFReuse.h in Headers */,
-				47F87B121BF73BF2E209111CEE51E38E /* UIImage+SFExtension.h in Headers */,
-				9FB4BFE2C1FDF74773D1F7C6586C9BA0 /* UITableView+SFReuse.h in Headers */,
-				FFD8778F517B7978E47AAA05F200C079 /* UITableViewCell+SFReuse.h in Headers */,
-				C2132AAB2D70B8D79EF56F7C076ABEAF /* UITableViewHeaderFooterView+SFReuse.h in Headers */,
-				C6FC50F5F1930D8993B7599F85DBD2E4 /* UIView+SFAnimation.h in Headers */,
-				90C2E73C3D6F1C46847ECF895E7D1165 /* UIView+SFClip.h in Headers */,
-				33795A72ADF85442F679166A58DBD329 /* UIView+SFFrame.h in Headers */,
-				9FAAA978E7583194AC5A07A03BF41330 /* UIView+SFGesture.h in Headers */,
-				90533D5991B1B86B7DD9D6A63B543318 /* UIView+SFGradient.h in Headers */,
-				668DCBCAE2B0865AB4DA1C2BB6F8A901 /* UIViewController+SFNavigator.h in Headers */,
+				A7D806519A0B3BCB89AE9EA9FED3B638 /* NSObject+SFExtension.h in Headers */,
+				418947BC57431A3772968FEBA918EA9A /* NSString+SFRegex.h in Headers */,
+				090EAA71A2460DD9411B281C8E41E501 /* SFCategory-umbrella.h in Headers */,
+				6F21950F93B7A49CF85F4FFB8D782A82 /* SFCategory.h in Headers */,
+				51E959C2BE3C53D11D013BDC0AD0BE6D /* SFFoundation.h in Headers */,
+				059FECA8A47D082222A72E14CBCD4535 /* SFKit.h in Headers */,
+				FA89CAB9AC85BBCF1A25A910EE7D4717 /* SFReusedProtocol.h in Headers */,
+				9267C52A6D015D4BE3E455C2F7F0C26A /* UIButton+SFEnlargeScope.h in Headers */,
+				290CC812CF39C0030A9E0B06244688F2 /* UIButton+SFExtension.h in Headers */,
+				420DD2B0BB74456DCC2A3B188D201D53 /* UICollectionReusableView+SFReuse.h in Headers */,
+				764C50DCBFB05EBC8C48433BCB96CCD5 /* UICollectionView+SFReuse.h in Headers */,
+				BD0CE6061AB2D04DED89FCABAC33D467 /* UICollectionViewCell+SFReuse.h in Headers */,
+				C2939D6F822C4665C5077C0C7D014629 /* UIImage+SFExtension.h in Headers */,
+				5DF69BF94112860A6E9ABA120BE2555A /* UITableView+SFReuse.h in Headers */,
+				7C3A752AFE6EC5CDAB6C51D0EC49C6E0 /* UITableViewCell+SFReuse.h in Headers */,
+				90D7B94A56C6DE3CC5989DCB57CB5D9A /* UITableViewHeaderFooterView+SFReuse.h in Headers */,
+				1FEE368FC7D2746931836F5A4A20E011 /* UIView+SFAnimation.h in Headers */,
+				5C6DF7E9E04483227ECA21531D6E679C /* UIView+SFClip.h in Headers */,
+				A517FC62D73E224913F2D15581AEE3E7 /* UIView+SFFrame.h in Headers */,
+				2551450BBE08D8190953B20ACBA14A80 /* UIView+SFGesture.h in Headers */,
+				E4063B5B15BF3226C52122C1CC3B3D1F /* UIView+SFGradient.h in Headers */,
+				E0064AFC9ADD542ED5712F339F24186D /* UIViewController+SFNavigator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688836693FB784CD5384F87D30CDFB42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3AFF2E320B7654267B5EE353B71E3B /* CALayer+YYAdd.h in Headers */,
+				AA63AA7E705BA515A6FFD089C8BF0B06 /* NSArray+YYAdd.h in Headers */,
+				F4F3C9C87E315C0DF120F0BA72FC8DE2 /* NSBundle+YYAdd.h in Headers */,
+				75F24BB291CD4F10383373065F719BD3 /* NSData+YYAdd.h in Headers */,
+				E877C8284AB9085B89157B245069FC9A /* NSDate+YYAdd.h in Headers */,
+				4B4AE076C4A6E7AC14C4263840B17251 /* NSDictionary+YYAdd.h in Headers */,
+				BD8C800080CABF766C7915EF8ED93D8E /* NSKeyedUnarchiver+YYAdd.h in Headers */,
+				97C45A8002DB958516F64158979DAC16 /* NSNotificationCenter+YYAdd.h in Headers */,
+				F8DB4B62A9C7717FA2E6504BC929924E /* NSNumber+YYAdd.h in Headers */,
+				9ACF109A20ABED5655498CF9D7A52F65 /* NSObject+YYAdd.h in Headers */,
+				D2EAD2BC146B9B6E461667CE111307C2 /* NSObject+YYAddForARC.h in Headers */,
+				28B9733F5712DF350A9F432310487C95 /* NSObject+YYAddForKVO.h in Headers */,
+				798BB628077C336D064553751E41BA29 /* NSString+YYAdd.h in Headers */,
+				0C072C229D0DF013ADA2B2EAB7776AC7 /* NSThread+YYAdd.h in Headers */,
+				8E06D10E6C84762D82DA1218F2615EB7 /* NSTimer+YYAdd.h in Headers */,
+				5C9E361113E8BB1AE2B1352E5E4FF5B5 /* UIApplication+YYAdd.h in Headers */,
+				83034844FE3DB7322E65D1EF80A2864E /* UIBarButtonItem+YYAdd.h in Headers */,
+				C45E39B50E8BB7E173544CE91E8B3393 /* UIBezierPath+YYAdd.h in Headers */,
+				442F817942273F6376C47FAB54F74E69 /* UIColor+YYAdd.h in Headers */,
+				6E56A67717289ABF018E511769F62277 /* UIControl+YYAdd.h in Headers */,
+				93FADD6C32AA9A944492FABCBE780A14 /* UIDevice+YYAdd.h in Headers */,
+				73E3624CABE393B696F2C9B6B2772465 /* UIFont+YYAdd.h in Headers */,
+				B4D2F94BA7817D12D0EA0FBCE57A25C2 /* UIGestureRecognizer+YYAdd.h in Headers */,
+				CF270EB5FAE6470EDD46EACD1BB29A71 /* UIImage+YYAdd.h in Headers */,
+				DCBC06C90DCBF0A47BB8ADD1B352339E /* UIScreen+YYAdd.h in Headers */,
+				528AA0B9AAEB619B116A1E11B0F47A84 /* UIScrollView+YYAdd.h in Headers */,
+				2B0DB15E4D93DAF1935E2125385EFD6E /* UITableView+YYAdd.h in Headers */,
+				14D34CFFB83C631C9B7FA048239B60C1 /* UITextField+YYAdd.h in Headers */,
+				15E2E6526EBC986DCD874538AC0D6557 /* UIView+YYAdd.h in Headers */,
+				89C882213729B3FD4AF08C5E90F51D77 /* YYCategories-umbrella.h in Headers */,
+				4A2D6BC6126E8F4E8D7E2CC473F7F3A5 /* YYCategories.h in Headers */,
+				F94411086EF4A880AC2CB9C7A4E08D8D /* YYCategoriesMacro.h in Headers */,
+				EC82930DD8C0DF8BA3D4210D02A66CA8 /* YYCGUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,46 +944,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				70EFC3F033DF75F17E613A68E91DA496 /* Pods-SFCategory_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80B035A9C646A3376E61DF8248F85A23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEE7874E2ABBB11741C20933DDD13365 /* CALayer+YYAdd.h in Headers */,
-				9785A7805E7B7ED493AD447C50569D5C /* NSArray+YYAdd.h in Headers */,
-				A054B4224CA8664CB143AE8EAC01C3DC /* NSBundle+YYAdd.h in Headers */,
-				505886C5CEC5235697A48FED7C1CD67A /* NSData+YYAdd.h in Headers */,
-				8CDABB8ABC8E91DFF5183C7E47F38C11 /* NSDate+YYAdd.h in Headers */,
-				C4115EDEA4362E4EFEB334FC14CE64EA /* NSDictionary+YYAdd.h in Headers */,
-				2F3219B1974C225E638D354DC8631B88 /* NSKeyedUnarchiver+YYAdd.h in Headers */,
-				CBD705FA6842173E75A842FF41DEE534 /* NSNotificationCenter+YYAdd.h in Headers */,
-				E4C488A4337D88A650C941ACB38F129A /* NSNumber+YYAdd.h in Headers */,
-				CF573F3AA1A4C3D7700D59C2EB892D09 /* NSObject+YYAdd.h in Headers */,
-				9EF7CE80B51DC985D630DE2D57DFBB95 /* NSObject+YYAddForARC.h in Headers */,
-				37E8FB46FFB8E8312A3479951CB652F2 /* NSObject+YYAddForKVO.h in Headers */,
-				CC22E4C558B80124FAD884C934BE0792 /* NSString+YYAdd.h in Headers */,
-				5C1571610240B00D8F8C448F807FD119 /* NSThread+YYAdd.h in Headers */,
-				8A135D764BE0B9058C3DAF7CB1BD7072 /* NSTimer+YYAdd.h in Headers */,
-				0D97A7137AC59A46B9CF805927703731 /* UIApplication+YYAdd.h in Headers */,
-				B07F802EFF8C61C6990AE55D0FC6C887 /* UIBarButtonItem+YYAdd.h in Headers */,
-				45FCB683A372759C0A4F84502F51E967 /* UIBezierPath+YYAdd.h in Headers */,
-				23060488DCD4AD275DF6615D6009E379 /* UIColor+YYAdd.h in Headers */,
-				269C74CD58E78A996271ED66E7BE11DD /* UIControl+YYAdd.h in Headers */,
-				1F229F63B00455EA4C928306A9609292 /* UIDevice+YYAdd.h in Headers */,
-				95FFADB4C8B732F31053D926C729FC5F /* UIFont+YYAdd.h in Headers */,
-				6EE181AC09823AD6BB245F38A6C592A3 /* UIGestureRecognizer+YYAdd.h in Headers */,
-				CDE236827DBB3C35EDEA6E844AFF54D9 /* UIImage+YYAdd.h in Headers */,
-				3695C0E3C61C2EC8C8682BEAEDA162F3 /* UIScreen+YYAdd.h in Headers */,
-				00A7009206ECC1914D4B5F63AFB9D830 /* UIScrollView+YYAdd.h in Headers */,
-				6CD02D02672C141B78DB99292939E75B /* UITableView+YYAdd.h in Headers */,
-				879C00ADC44ADCF4D62E7B9279B334D8 /* UITextField+YYAdd.h in Headers */,
-				B7193BF78A3E98D683CFBB544E865912 /* UIView+YYAdd.h in Headers */,
-				CA1AA240A635FCD9E6CC331805FEB639 /* YYCategories-umbrella.h in Headers */,
-				906D45CC983E6450E4E03E0BB68DA754 /* YYCategories.h in Headers */,
-				B8857AC62DD39786616FF3641418BF5A /* YYCategoriesMacro.h in Headers */,
-				939819FFD0CC68C7F407E8B0C8587837 /* YYCGUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -970,8 +962,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3001EE9A8C1EC89DF0134F9A3452B134 /* PBXTargetDependency */,
-				D8F2F7199C06EBD5F888E962679560F2 /* PBXTargetDependency */,
+				B87ED968E2BF2CC9A93CD554E7DA57E9 /* PBXTargetDependency */,
+				369ED3497A998308DE971E5F78C9F877 /* PBXTargetDependency */,
 			);
 			name = "Pods-SFCategory_Example";
 			productName = "Pods-SFCategory_Example";
@@ -980,12 +972,12 @@
 		};
 		4CF4590C80DA0BCFB23334523B614709 /* YYCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96A2F554C3E24A2D6CF31025A942428C /* Build configuration list for PBXNativeTarget "YYCategories" */;
+			buildConfigurationList = 8FD10AB298FC73CFBE2BE07A5053C879 /* Build configuration list for PBXNativeTarget "YYCategories" */;
 			buildPhases = (
-				80B035A9C646A3376E61DF8248F85A23 /* Headers */,
-				29079D98EB6858819E07923209A07B33 /* Sources */,
-				D366EA4B5C82F6D2A9745D16E5F8265C /* Frameworks */,
-				C4ACC92FBA51229938864EF92F9AD940 /* Resources */,
+				688836693FB784CD5384F87D30CDFB42 /* Headers */,
+				F245FBE7E8466961A67016AB016E926E /* Sources */,
+				AE9D01553F22459F240B72AE99FDAE92 /* Frameworks */,
+				5EA2B72DADB3014E0E9D9C5338BEE805 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1026,8 +1018,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FCF9DCBA656E86B40EC03D32023B7AE2 /* PBXTargetDependency */,
-				48AD6E208B709E3D49F53C8BFA5424A0 /* PBXTargetDependency */,
+				240E8E03E298FCE793B404AA08D075EF /* PBXTargetDependency */,
+				E82A8AB37E930D9A2D88403D82559EF5 /* PBXTargetDependency */,
 			);
 			name = "Pods-SFCategory_Tests";
 			productName = "Pods-SFCategory_Tests";
@@ -1036,17 +1028,17 @@
 		};
 		DE4AEF5EFF32A1182DA632BA9EA70F15 /* SFCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF524AF53A00A5807BD8C9EBC2061BD /* Build configuration list for PBXNativeTarget "SFCategory" */;
+			buildConfigurationList = 8B4887DB9FC101915C60E199C6ADD1B6 /* Build configuration list for PBXNativeTarget "SFCategory" */;
 			buildPhases = (
-				3951BA555094F2EDB86E92F1A039016E /* Headers */,
-				181AD2EA6CB584834B516B10694814F8 /* Sources */,
-				D29E306FC13E96D5A0670EED645DD183 /* Frameworks */,
-				1CFCAE4B8BBF11999EB849F7BC85FF49 /* Resources */,
+				596EAE1416156E72FE18B791153F1294 /* Headers */,
+				9E7A3322D0E136D4A84D809A0BE5D50A /* Sources */,
+				BDFC311A710BEDE9F9036C09585C69D8 /* Frameworks */,
+				510452F903AA3FE925101B097B47A852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C765A3099D3FB6C7CEF6E172AABEAFC /* PBXTargetDependency */,
+				0D254B275210E660271E7BAEDA641FBE /* PBXTargetDependency */,
 			);
 			name = SFCategory;
 			productName = SFCategory;
@@ -1092,14 +1084,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CFCAE4B8BBF11999EB849F7BC85FF49 /* Resources */ = {
+		44BADA1EFA8DB40924BF342A4D23A43D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44BADA1EFA8DB40924BF342A4D23A43D /* Resources */ = {
+		510452F903AA3FE925101B097B47A852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1113,7 +1105,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4ACC92FBA51229938864EF92F9AD940 /* Resources */ = {
+		5EA2B72DADB3014E0E9D9C5338BEE805 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1123,74 +1115,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		181AD2EA6CB584834B516B10694814F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2745E6DE208616D8D5F45C13F5FAC3BA /* NSObject+SFExtension.m in Sources */,
-				F34CBE50919061D9415BD760ECE1606C /* NSString+SFRegex.m in Sources */,
-				A315A28E6661CD5056A1AAD028A9D678 /* SFCategory-dummy.m in Sources */,
-				EF1CBF865D127ABF249A153FD75970C1 /* UIButton+SFEnlargeScope.m in Sources */,
-				E13DD0CAC5B78581D2CAD17FD736312E /* UIButton+SFExtension.m in Sources */,
-				DA03A94758867C85C01731260FB82A50 /* UICollectionReusableView+SFReuse.m in Sources */,
-				BA9BCADAF0EE4B4628B0F59837A4A150 /* UICollectionView+SFReuse.m in Sources */,
-				A473D5FA738A8B2B7CBA4E891117CBA9 /* UICollectionViewCell+SFReuse.m in Sources */,
-				85BD200A0048C9BB0C165F5E5B54A2F9 /* UIImage+SFExtension.m in Sources */,
-				5A6851CE30245F57EFCC3C2279E2EC20 /* UITableView+SFReuse.m in Sources */,
-				966A3B884895631F6E6814444F24F4AE /* UITableViewCell+SFReuse.m in Sources */,
-				63227636EA75D6D3F3CCC84A420EB563 /* UITableViewHeaderFooterView+SFReuse.m in Sources */,
-				87EED8E5F362479DAFF1CF23A2D47529 /* UIView+SFAnimation.m in Sources */,
-				8C927B543B213610D899BBF95341C1C8 /* UIView+SFClip.m in Sources */,
-				D41F8E0470767E6A487D333E88C67E51 /* UIView+SFFrame.m in Sources */,
-				F86D7F80E67B58BCFC36E570487CC2E3 /* UIView+SFGesture.m in Sources */,
-				3F959B14E1632D83BC438266C6B3C8D6 /* UIView+SFGradient.m in Sources */,
-				D5FC819019CD0F6D3DBC45CBA70703FD /* UIViewController+SFNavigator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29079D98EB6858819E07923209A07B33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F9239437903F16D219067E99503DA6E /* CALayer+YYAdd.m in Sources */,
-				EAF3432DBC4ABDA79810AA531D497A57 /* NSArray+YYAdd.m in Sources */,
-				64EC2480B54BFAFA9C1BA5D198C2593D /* NSBundle+YYAdd.m in Sources */,
-				7029E0B65283F17A3B760755B72A2886 /* NSData+YYAdd.m in Sources */,
-				FF9802A412A7F1FF54F58A0A344655F8 /* NSDate+YYAdd.m in Sources */,
-				7F911B48561F77928383383D184E431D /* NSDictionary+YYAdd.m in Sources */,
-				994A362B149A6F384D7B32DD3B17E54D /* NSKeyedUnarchiver+YYAdd.m in Sources */,
-				32445B0E6480E5A626DB42C4C70718C4 /* NSNotificationCenter+YYAdd.m in Sources */,
-				3D3EB0EF3BC8920A3CA13DD6ADDCDE7B /* NSNumber+YYAdd.m in Sources */,
-				417DE491E9E6A5CDFB37F05BE1CA173A /* NSObject+YYAdd.m in Sources */,
-				58BB2C1AF744969E37FE1E1C1497AE15 /* NSObject+YYAddForARC.m in Sources */,
-				612442A3720EE4AC4538D9EBA162763B /* NSObject+YYAddForKVO.m in Sources */,
-				BBBE56A06FBC6E59ACF325F208200031 /* NSString+YYAdd.m in Sources */,
-				71EECC2130F5FC1EA585F54BD8224F4F /* NSThread+YYAdd.m in Sources */,
-				DE93ED62E1C8D69865901FE3E2D941F2 /* NSTimer+YYAdd.m in Sources */,
-				4EFAC8A90BA20355036E2B414DCBC6C7 /* UIApplication+YYAdd.m in Sources */,
-				A8EFEF3CEC6C1507D70EBDE021348263 /* UIBarButtonItem+YYAdd.m in Sources */,
-				95FA73CCA6D1B95F313439E50C6B564A /* UIBezierPath+YYAdd.m in Sources */,
-				8A81611F881BC4D89FCD23373388BB09 /* UIColor+YYAdd.m in Sources */,
-				B2C2DAFEF785416B7B81EABD0E6D4CA4 /* UIControl+YYAdd.m in Sources */,
-				F9402A83FFDDFC0829C8B27DC01D0B9A /* UIDevice+YYAdd.m in Sources */,
-				3FC6E40CACC6596832C30737B7F7CE9B /* UIFont+YYAdd.m in Sources */,
-				19CF2F6EB206DF1411AD0A7482BA4F9A /* UIGestureRecognizer+YYAdd.m in Sources */,
-				7C3AC6B423E0627B8FA2F93EC42165C0 /* UIImage+YYAdd.m in Sources */,
-				D05A15D86BA977CD1623A08EA9F2D754 /* UIScreen+YYAdd.m in Sources */,
-				233BA3E2C5E206C5D303C514E47BE458 /* UIScrollView+YYAdd.m in Sources */,
-				BA5C15D44A278726AC7D299CDAFFCDCF /* UITableView+YYAdd.m in Sources */,
-				A36A8E003E041A4DFC9171828516730C /* UITextField+YYAdd.m in Sources */,
-				4ECA591532B8EF12CB1A47036198A086 /* UIView+YYAdd.m in Sources */,
-				6F63F20C14BEFBE1E1593BBEE0F1E978 /* YYCategories-dummy.m in Sources */,
-				B0B8EB8182A50157969F2FBF9802AF26 /* YYCGUtilities.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		963854A23B724C7AC01637411BE354CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86E7B794C88344B26160521BE254E2FD /* Pods-SFCategory_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7A3322D0E136D4A84D809A0BE5D50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA7E62609FDA61A596F94E724F550BA /* NSObject+SFExtension.m in Sources */,
+				98DCA3209DBC6BC71EC2E292DDE1145B /* NSString+SFRegex.m in Sources */,
+				15734158F4C6B72536A933AD14C0B2FD /* SFCategory-dummy.m in Sources */,
+				AFD9017C6B93B3C67ABF11D9195C9E02 /* UIButton+SFEnlargeScope.m in Sources */,
+				F613DEF36C434FC36F5E363FD2745EDD /* UIButton+SFExtension.m in Sources */,
+				552291156B9401F1FAF7DF8D1AA1DCA3 /* UICollectionReusableView+SFReuse.m in Sources */,
+				0BC33944804D403DD7C17B3526170389 /* UICollectionView+SFReuse.m in Sources */,
+				50FE2C3CF21D45F6367EFB944ADBF072 /* UICollectionViewCell+SFReuse.m in Sources */,
+				C31895C8ED41218BF84AC58C6F79259C /* UIImage+SFExtension.m in Sources */,
+				BD5154E0204A215FA250591F693E0F0D /* UITableView+SFReuse.m in Sources */,
+				87D8A4A6586AA372D86216F60829772D /* UITableViewCell+SFReuse.m in Sources */,
+				EB8FD8EC2B9DF17F5C04241374FA75E3 /* UITableViewHeaderFooterView+SFReuse.m in Sources */,
+				41068F4F1791E2D0C0C5AA3924C4AAA1 /* UIView+SFAnimation.m in Sources */,
+				CA80C3F0468C2237ACE22B61E8A44712 /* UIView+SFClip.m in Sources */,
+				4D9A78FFCF514EAF8C042278582A10D1 /* UIView+SFFrame.m in Sources */,
+				611A14A2C9A4FD12D237222F26820D7B /* UIView+SFGesture.m in Sources */,
+				74B61996DFEFC0BAF1FE1E055CC95A3A /* UIView+SFGradient.m in Sources */,
+				F525A784A3A5CF7C35FA975BC36168DC /* UIViewController+SFNavigator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,38 +1172,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F245FBE7E8466961A67016AB016E926E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F80C9AE601E99A9EDEF29D7A34C6D3B /* CALayer+YYAdd.m in Sources */,
+				7218BC554E63A5E66D785033398C1FC9 /* NSArray+YYAdd.m in Sources */,
+				FC5D04A4041605E73A3CD1264F7F6061 /* NSBundle+YYAdd.m in Sources */,
+				97CF377C98580180A1BD8652640E18F5 /* NSData+YYAdd.m in Sources */,
+				A959FCC5828AAAB345DD11671D871C0D /* NSDate+YYAdd.m in Sources */,
+				18A42CC318FB74EA222A6B2769854A37 /* NSDictionary+YYAdd.m in Sources */,
+				A1E32FD79A00B2A9ECAB8FF3A2CDF190 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
+				74098E7C6A0FFE776C32FAA70223F1FC /* NSNotificationCenter+YYAdd.m in Sources */,
+				B7D9FB580B777E34FB071EF3CB318F8A /* NSNumber+YYAdd.m in Sources */,
+				4AB7C4063BDE12920E24CB430E2C0B08 /* NSObject+YYAdd.m in Sources */,
+				77D58BC17550E4A1B6813064C62F423F /* NSObject+YYAddForARC.m in Sources */,
+				F26AD50C0EFA265304024BE7F72E8CCA /* NSObject+YYAddForKVO.m in Sources */,
+				9FDCCF6FED75CF5B8E01BBA73A795CB8 /* NSString+YYAdd.m in Sources */,
+				E0CFDCF0B1068057F7F38F1439853B06 /* NSThread+YYAdd.m in Sources */,
+				9AF79BFF2D2D61322C3868D78321D411 /* NSTimer+YYAdd.m in Sources */,
+				CB30A10F3AE378222102AFFC3734B058 /* UIApplication+YYAdd.m in Sources */,
+				8F02519830A4B28A5193C4D34981F8C9 /* UIBarButtonItem+YYAdd.m in Sources */,
+				7A1A3FEE54A49BF7288E3BB1B3415CE1 /* UIBezierPath+YYAdd.m in Sources */,
+				0A6CF3A9A798B1C0A42FA172646BFB6D /* UIColor+YYAdd.m in Sources */,
+				B0B967FB0DBBB7DAA2AF2083025E91CC /* UIControl+YYAdd.m in Sources */,
+				F8C5EE85EB43A23A51380CFCADB89CD2 /* UIDevice+YYAdd.m in Sources */,
+				6848F15D020112D414D11B62B68A446D /* UIFont+YYAdd.m in Sources */,
+				A55BE8435736D3C3DED68D671D4B50F7 /* UIGestureRecognizer+YYAdd.m in Sources */,
+				CC6C1175AD811D5B9ECA6B6F2A9439DB /* UIImage+YYAdd.m in Sources */,
+				63E8C6B409CAE64EF646216ED50984D1 /* UIScreen+YYAdd.m in Sources */,
+				ED524D7CC6B8DB7F5BA0FEDC19F91F4B /* UIScrollView+YYAdd.m in Sources */,
+				050CF7D8EEA0E711CDB90566F3F2882C /* UITableView+YYAdd.m in Sources */,
+				DF2CEDB14087437000BB029D8D49891D /* UITextField+YYAdd.m in Sources */,
+				2ECBBC253D2CC5AA97FD05DAF46BC6B6 /* UIView+YYAdd.m in Sources */,
+				60E6E0FA431BF88EC0BE2B9257FF1C9B /* YYCategories-dummy.m in Sources */,
+				3B82A79C7F811B8728F5BE64B83E8A45 /* YYCGUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3001EE9A8C1EC89DF0134F9A3452B134 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SFCategory;
-			target = DE4AEF5EFF32A1182DA632BA9EA70F15 /* SFCategory */;
-			targetProxy = C99DD8D4B03ABF06DFFB815CB9CEF3E2 /* PBXContainerItemProxy */;
-		};
-		48AD6E208B709E3D49F53C8BFA5424A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SFCategory_Example";
-			target = 1EA83019985F20F611640A1A2589BF53 /* Pods-SFCategory_Example */;
-			targetProxy = 11517031138EF448B8FAE5C39398CB35 /* PBXContainerItemProxy */;
-		};
-		7C765A3099D3FB6C7CEF6E172AABEAFC /* PBXTargetDependency */ = {
+		0D254B275210E660271E7BAEDA641FBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYCategories;
 			target = 4CF4590C80DA0BCFB23334523B614709 /* YYCategories */;
-			targetProxy = E70E54542D4A0A94BAA656C9F8B7615B /* PBXContainerItemProxy */;
+			targetProxy = F0EC5F41EDB72DD9C37CAC5B1725B03F /* PBXContainerItemProxy */;
 		};
-		D8F2F7199C06EBD5F888E962679560F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCategories;
-			target = 4CF4590C80DA0BCFB23334523B614709 /* YYCategories */;
-			targetProxy = 409145F129313253CFBF38BE599DD099 /* PBXContainerItemProxy */;
-		};
-		FCF9DCBA656E86B40EC03D32023B7AE2 /* PBXTargetDependency */ = {
+		240E8E03E298FCE793B404AA08D075EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 4A63F77EBBCA4E11D418A2BE2B39482C /* PBXContainerItemProxy */;
+			targetProxy = D401EE542C72DE4A2B2C390A669B0FD0 /* PBXContainerItemProxy */;
+		};
+		369ED3497A998308DE971E5F78C9F877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCategories;
+			target = 4CF4590C80DA0BCFB23334523B614709 /* YYCategories */;
+			targetProxy = C93FEF7CED5A5DBF836473C0813A59E7 /* PBXContainerItemProxy */;
+		};
+		B87ED968E2BF2CC9A93CD554E7DA57E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFCategory;
+			target = DE4AEF5EFF32A1182DA632BA9EA70F15 /* SFCategory */;
+			targetProxy = 88ABD72AA71BB8A84070ED6AB06E7078 /* PBXContainerItemProxy */;
+		};
+		E82A8AB37E930D9A2D88403D82559EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SFCategory_Example";
+			target = 1EA83019985F20F611640A1A2589BF53 /* Pods-SFCategory_Example */;
+			targetProxy = 6147AB70FB51804F5B5AF9CEB7D6B63F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1288,7 +1280,7 @@
 			};
 			name = Release;
 		};
-		16FA38A1FC8C242F73B219BF8E8E2BB4 /* Release */ = {
+		136E425CE30BFF14C74B991F09E0FB83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 700ADB16CA14EA6CB2B5CB7C990524FD /* YYCategories.release.xcconfig */;
 			buildSettings = {
@@ -1351,7 +1343,39 @@
 			};
 			name = Debug;
 		};
-		513BFB96A2A8AFD99271AE29899BD077 /* Debug */ = {
+		553B568F7659146D9EFE8923C171A993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3D1478BBEA1FFE83187E2A7ECA86DC /* SFCategory.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCategory/SFCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCategory/SFCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCategory/SFCategory.modulemap";
+				PRODUCT_MODULE_NAME = SFCategory;
+				PRODUCT_NAME = SFCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6472D4A1044307CDB92D90E195146C9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29E4204716EB0F79518A1454001301AA /* SFCategory.debug.xcconfig */;
 			buildSettings = {
@@ -1572,69 +1596,6 @@
 			};
 			name = Release;
 		};
-		C195CF895A16C82F648D79D30157637E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F3D1478BBEA1FFE83187E2A7ECA86DC /* SFCategory.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCategory/SFCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCategory/SFCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCategory/SFCategory.modulemap";
-				PRODUCT_MODULE_NAME = SFCategory;
-				PRODUCT_NAME = SFCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C54B64A6D436A0D16B7CCB2667B58463 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D94B44176FBA8CC2C31D239AB339C4CB /* YYCategories.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCategories/YYCategories-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCategories/YYCategories-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCategories/YYCategories.modulemap";
-				PRODUCT_MODULE_NAME = YYCategories;
-				PRODUCT_NAME = YYCategories;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EEB13A9F7F09E80EAFCA064146B8DB67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08CB28B675D38B45CE6D56EE5631BC33 /* Pods-SFCategory_Example.debug.xcconfig */;
@@ -1701,6 +1662,37 @@
 			};
 			name = Debug;
 		};
+		FB379E0DB738ADC908B0DF4B7B047387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94B44176FBA8CC2C31D239AB339C4CB /* YYCategories.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCategories/YYCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCategories/YYCategories-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCategories/YYCategories.modulemap";
+				PRODUCT_MODULE_NAME = YYCategories;
+				PRODUCT_NAME = YYCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1709,6 +1701,15 @@
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4887DB9FC101915C60E199C6ADD1B6 /* Build configuration list for PBXNativeTarget "SFCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6472D4A1044307CDB92D90E195146C9D /* Debug */,
+				553B568F7659146D9EFE8923C171A993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1722,20 +1723,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96A2F554C3E24A2D6CF31025A942428C /* Build configuration list for PBXNativeTarget "YYCategories" */ = {
+		8FD10AB298FC73CFBE2BE07A5053C879 /* Build configuration list for PBXNativeTarget "YYCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C54B64A6D436A0D16B7CCB2667B58463 /* Debug */,
-				16FA38A1FC8C242F73B219BF8E8E2BB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FF524AF53A00A5807BD8C9EBC2061BD /* Build configuration list for PBXNativeTarget "SFCategory" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				513BFB96A2A8AFD99271AE29899BD077 /* Debug */,
-				C195CF895A16C82F648D79D30157637E /* Release */,
+				FB379E0DB738ADC908B0DF4B7B047387 /* Debug */,
+				136E425CE30BFF14C74B991F09E0FB83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

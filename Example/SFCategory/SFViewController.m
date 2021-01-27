@@ -7,7 +7,7 @@
 //
 
 #import "SFViewController.h"
-#import <SFCategory/SFKit.h>
+#import <SFCategory/SFCategory.h>
 #import "SFTestCell.h"
 
 @interface SFViewController ()<UITableViewDataSource,UITableViewDelegate>

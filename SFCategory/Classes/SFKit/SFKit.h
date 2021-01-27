@@ -11,8 +11,6 @@
 
 #pragma mark - SFProtocol
 #import "SFReusedProtocol.h"
-#import "SFTableViewReusedProtocol.h"
-#import "SFCollectionViewReusedProtocol.h"
 
 #pragma mark - UITableView
 #import "UITableView+SFReuse.h"
