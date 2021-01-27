@@ -76,6 +76,9 @@
           "dependencies": {
             "SFCategory/SFKit/SFProtocol": [
 
+            ],
+            "SFCategory/SFFoundation/NSObject": [
+
             ]
           }
         },
@@ -84,6 +87,9 @@
           "source_files": "SFCategory/Classes/SFKit/UICollectionView/*.{h,m}",
           "dependencies": {
             "SFCategory/SFKit/SFProtocol": [
+
+            ],
+            "SFCategory/SFFoundation/NSObject": [
 
             ]
           }

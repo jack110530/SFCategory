@@ -16,9 +16,13 @@
 
 #pragma mark - UITableView
 #import "UITableView+SFReuse.h"
+#import "UITableViewHeaderFooterView+SFReuse.h"
+#import "UITableViewCell+SFReuse.h"
 
 #pragma mark - UICollectionView
 #import "UICollectionView+SFReuse.h"
+#import "UICollectionReusableView+SFReuse.h"
+#import "UICollectionViewCell+SFReuse.h"
 
 #pragma mark - UIButton
 #import "UIButton+SFExtension.h"
