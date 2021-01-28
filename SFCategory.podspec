@@ -65,11 +65,13 @@ TODO: Add long description of the pod here.
     # UIControl
     ss.subspec 'UIControl' do |sss|
       sss.source_files = 'SFCategory/Classes/SFKit/UIControl/*.{h,m}'
+      sss.dependency 'SFCategory/SFFoundation/NSObject'
     end
 
     # UIButton
     ss.subspec 'UIButton' do |sss|
       sss.source_files = 'SFCategory/Classes/SFKit/UIButton/*.{h,m}'
+      sss.dependency 'SFCategory/SFFoundation/NSObject'
     end
 
     # UIImage

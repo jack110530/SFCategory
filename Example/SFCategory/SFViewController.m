@@ -10,30 +10,22 @@
 #import <SFCategory/SFCategory.h>
 #import "SFTestCell.h"
 
-@interface SFViewController ()<UITableViewDataSource,UITableViewDelegate>
-@property (nonatomic,strong) UITableView *tableView;
+@interface SFViewController ()
 @end
 
 @implementation SFViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:(UITableViewStylePlain)];
-    [self.view addSubview:self.tableView];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
-    [self.tableView sf_registerCell:[SFTestCell class]];
-    self.tableView.rowHeight = 100;
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeClose];
+    btn.clickDuring = 3;
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:btn];
+}
+- (void)click {
+    NSLog(@"dddd");
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
-}
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    SFTestCell *cell = [tableView sf_dequeueCell:[SFTestCell class] indexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"indexPath:%@",indexPath];
-    return cell;
-}
 
 @end

@@ -4,47 +4,49 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SFCategory (0.1.1):
-    - SFCategory/SFFoundation (= 0.1.1)
-    - SFCategory/SFKit (= 0.1.1)
+  - SFCategory (0.1.2):
+    - SFCategory/SFFoundation (= 0.1.2)
+    - SFCategory/SFKit (= 0.1.2)
     - YYCategories
-  - SFCategory/SFFoundation (0.1.1):
-    - SFCategory/SFFoundation/NSObject (= 0.1.1)
-    - SFCategory/SFFoundation/NSString (= 0.1.1)
+  - SFCategory/SFFoundation (0.1.2):
+    - SFCategory/SFFoundation/NSObject (= 0.1.2)
+    - SFCategory/SFFoundation/NSString (= 0.1.2)
     - YYCategories
-  - SFCategory/SFFoundation/NSObject (0.1.1):
+  - SFCategory/SFFoundation/NSObject (0.1.2):
     - YYCategories
-  - SFCategory/SFFoundation/NSString (0.1.1):
+  - SFCategory/SFFoundation/NSString (0.1.2):
     - YYCategories
-  - SFCategory/SFKit (0.1.1):
-    - SFCategory/SFKit/SFProtocol (= 0.1.1)
-    - SFCategory/SFKit/UIButton (= 0.1.1)
-    - SFCategory/SFKit/UICollectionView (= 0.1.1)
-    - SFCategory/SFKit/UIControl (= 0.1.1)
-    - SFCategory/SFKit/UIImage (= 0.1.1)
-    - SFCategory/SFKit/UITableView (= 0.1.1)
-    - SFCategory/SFKit/UIView (= 0.1.1)
-    - SFCategory/SFKit/UIViewController (= 0.1.1)
+  - SFCategory/SFKit (0.1.2):
+    - SFCategory/SFKit/SFProtocol (= 0.1.2)
+    - SFCategory/SFKit/UIButton (= 0.1.2)
+    - SFCategory/SFKit/UICollectionView (= 0.1.2)
+    - SFCategory/SFKit/UIControl (= 0.1.2)
+    - SFCategory/SFKit/UIImage (= 0.1.2)
+    - SFCategory/SFKit/UITableView (= 0.1.2)
+    - SFCategory/SFKit/UIView (= 0.1.2)
+    - SFCategory/SFKit/UIViewController (= 0.1.2)
     - YYCategories
-  - SFCategory/SFKit/SFProtocol (0.1.1):
+  - SFCategory/SFKit/SFProtocol (0.1.2):
     - YYCategories
-  - SFCategory/SFKit/UIButton (0.1.1):
+  - SFCategory/SFKit/UIButton (0.1.2):
+    - SFCategory/SFFoundation/NSObject
     - YYCategories
-  - SFCategory/SFKit/UICollectionView (0.1.1):
+  - SFCategory/SFKit/UICollectionView (0.1.2):
     - SFCategory/SFFoundation/NSObject
     - SFCategory/SFKit/SFProtocol
     - YYCategories
-  - SFCategory/SFKit/UIControl (0.1.1):
+  - SFCategory/SFKit/UIControl (0.1.2):
+    - SFCategory/SFFoundation/NSObject
     - YYCategories
-  - SFCategory/SFKit/UIImage (0.1.1):
+  - SFCategory/SFKit/UIImage (0.1.2):
     - YYCategories
-  - SFCategory/SFKit/UITableView (0.1.1):
+  - SFCategory/SFKit/UITableView (0.1.2):
     - SFCategory/SFFoundation/NSObject
     - SFCategory/SFKit/SFProtocol
     - YYCategories
-  - SFCategory/SFKit/UIView (0.1.1):
+  - SFCategory/SFKit/UIView (0.1.2):
     - YYCategories
-  - SFCategory/SFKit/UIViewController (0.1.1):
+  - SFCategory/SFKit/UIViewController (0.1.2):
     - YYCategories
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -65,7 +67,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SFCategory: 41e70a75967428525ae6b3f7d73fd679db409f34
+  SFCategory: 25c26e827d50e01c21bd659a11b5fd7b94dffc77
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: fcfde905b6fcb970850a01a4c7cb0f50f69f5ffc
