@@ -21,10 +21,14 @@
 
 
 - (void)sf_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
-    if (!self.eventInvalid) {
-        self.eventInvalid = YES;
+    if([self isMemberOfClass:[UIButton class]]) {
+        if (!self.eventInvalid) {
+            self.eventInvalid = YES;
+            [self sf_sendAction:action to:target forEvent:event];
+            [self performSelector:@selector(setEventInvalid:) withObject:@(NO) afterDelay:self.clickDuring];
+        }
+    }else{
         [self sf_sendAction:action to:target forEvent:event];
-        [self performSelector:@selector(setEventInvalid:) withObject:@(NO) afterDelay:self.clickDuring];
     }
 }
 
